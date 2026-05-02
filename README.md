@@ -1,203 +1,126 @@
-# 🎨 Artory - Local Setup Guide
+# Artory - AI-Powered Art Learning & Community Platform
 
-A full-stack art community platform with a React + Vite frontend and Node.js + Express + MongoDB backend.
+Artory is a full-stack MERN application designed to be an AI-powered art learning and community platform. It provides artists with tools to learn, share their work, participate in competitions, and interact with an AI mentor, all within a modern, visually striking interface.
 
----
+## 🚀 Key Features
 
-## 📋 Prerequisites
+- **AI-Powered Mentorship**: Get personalized feedback and guidance on your artwork from an integrated AI mentor using OpenAI.
+- **3D Explore Gallery**: Immersive 3D artwork discovery experience built with Framer Motion and use-gesture.
+- **Real-Time Community & Chat**: Direct messaging, group chats, and community channels with real-time updates powered by Socket.io.
+- **Competitions & Lightbox View**: Participate in art competitions, submit artworks, and view submissions in full resolution using a custom lightbox viewer.
+- **Camera-Based Identity Verification**: Secure identity verification flow capturing photos directly from the user's device camera.
+- **Admin Dashboard**: Comprehensive moderation tools for user, community, and competition management.
+- **Responsive Modern UI**: Beautiful dark-themed aesthetic with smooth animations and dynamic layouts using Tailwind CSS.
 
-Before you begin, make sure you have the following installed on your machine:
+## 🛠️ Tech Stack
 
-1. **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
-2. **npm** (comes with Node.js)
-3. **MongoDB** (local instance) - [Download](https://www.mongodb.com/try/download/community)
+### Frontend
+- **Framework**: React 19 (Vite)
+- **Styling**: Tailwind CSS, clsx, tailwind-merge
+- **Animations & Interaction**: Framer Motion, @use-gesture/react
+- **Routing**: React Router DOM
+- **Real-time**: Socket.io-client
+- **Icons**: Lucide React
+- **Notifications**: React Hot Toast
 
-### Verify installations:
-```powershell
-node --version
-npm --version
-mongod --version
-```
+### Backend
+- **Framework**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
+- **Authentication**: JWT (JSON Web Tokens), bcryptjs
+- **Real-time**: Socket.io
+- **AI Integration**: OpenAI API
+- **File Uploads**: Multer, Cloudinary
 
----
+## 📦 Prerequisites
 
-## ⚙️ Step 1: Clone / Navigate to the Project
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [MongoDB](https://www.mongodb.com/) (Local or Atlas)
+- Cloudinary Account (for image uploads)
+- OpenAI API Key (for AI Mentorship features)
 
-```powershell
-cd c:/artory1
-```
+## ⚙️ Installation & Setup
 
-> The project has two main folders:
-> - `client/` - React frontend
-> - `server/` - Express backend
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd artory1
+   ```
 
----
+2. **Install Backend Dependencies**
+   ```bash
+   cd server
+   npm install
+   ```
 
-## ⚙️ Step 2: Install Server Dependencies
+3. **Install Frontend Dependencies**
+   ```bash
+   cd ../client
+   npm install
+   ```
 
-```powershell
-Set-Location -Path "c:/artory1/server"
-npm install
-```
+## 🔐 Environment Variables
 
----
+You need to create `.env` files in both the `client` and `server` directories.
 
-## ⚙️ Step 3: Install Client Dependencies
-
-```powershell
-Set-Location -Path "c:/artory1/client"
-npm install
-```
-
----
-
-## ⚙️ Step 4: Configure Environment Variables
-
-Create a `.env` file inside the `server/` folder.
-
-**Path:** `c:/artory1/server/.env`
-
-**Contents:**
+**`server/.env`**
 ```env
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/artory
-JWT_SECRET=your-secret-key-here
+JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:5173
+OPENAI_API_KEY=your_openai_api_key
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-> **Note:** You can change `JWT_SECRET` to any random string. It is used for signing authentication tokens.
-
----
-
-## ⚙️ Step 5: Start MongoDB
-
-Make sure your local MongoDB server is running.
-
-**If MongoDB is installed as a Windows Service:**
-```powershell
-net start MongoDB
+**`client/.env`**
+```env
+VITE_API_URL=http://localhost:5000/api
+VITE_SOCKET_URL=http://localhost:5000
 ```
 
-**If you need to start MongoDB manually:**
-```powershell
-mongod
-```
+## 🚀 Running the Application
 
-> By default, MongoDB runs on `mongodb://127.0.0.1:27017`
+To run the application locally, you'll need two terminal windows.
 
----
-
-## ⚙️ Step 6: Start the Backend Server
-
-Open a new terminal and run:
-
-```powershell
-Set-Location -Path "c:/artory1/server"
-npm start
-```
-
-**Expected output:**
-```
-🚀 Server running on port 5000
-✅ MongoDB Connected: 127.0.0.1
-```
-
-The API is now running at: `http://localhost:5000`
-
----
-
-## ⚙️ Step 7: Start the Frontend Client
-
-Open another new terminal and run:
-
-```powershell
-Set-Location -Path "c:/artory1/client"
+**Terminal 1 (Backend):**
+```bash
+cd server
 npm run dev
 ```
 
-**Expected output:**
-```
-VITE v8.0.9  ready in X ms
-
-➜  Local:   http://localhost:5173/
-➜  Network: use --host to expose
+**Terminal 2 (Frontend):**
+```bash
+cd client
+npm run dev
 ```
 
----
+The frontend will be available at `http://localhost:5173` and the backend at `http://localhost:5000`.
 
-## 🌐 Open the App
-
-Visit the following URL in your browser:
+## 📂 Project Structure
 
 ```
-http://localhost:5173
-```
-
----
-
-## 📁 Project Structure
-
-```
-artory/
-├── client/              # React + Vite Frontend
+artory1/
+├── client/                 # React Frontend
+│   ├── public/             # Static assets
 │   ├── src/
-│   │   ├── components/  # Reusable components
-│   │   ├── pages/       # Page components
-│   │   ├── services/    # API service calls
-│   │   └── context/     # React contexts
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Application views/routes
+│   │   ├── services/       # API integration
+│   │   └── ...
 │   └── package.json
-├── server/              # Node.js + Express Backend
-│   ├── controllers/     # Route controllers
-│   ├── models/          # Mongoose models
-│   ├── routes/          # API routes
-│   ├── middleware/      # Auth & upload middleware
-│   ├── config/          # DB configuration
-│   └── package.json
-└── README.md
+└── server/                 # Node.js/Express Backend
+    ├── config/             # Database and service configurations
+    ├── controllers/        # Request handlers
+    ├── middleware/         # Custom Express middleware (e.g., auth)
+    ├── models/             # Mongoose schemas
+    ├── routes/             # API route definitions
+    ├── socket/             # Socket.io event handlers
+    └── package.json
 ```
 
----
+## 🤝 Contributing
 
-## 🔧 Common Issues
-
-### Port already in use
-If port `5000` is already in use, change the `PORT` value in `server/.env`.
-
-### MongoDB connection failed
-- Make sure MongoDB is running: `net start MongoDB`
-- Check your `MONGO_URI` in the `.env` file
-
-### Client can't reach the server
-- Ensure the server is running on port `5000`
-- Check that `CLIENT_URL` in `server/.env` matches the client URL
-
----
-
-## 📦 Additional Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` (client) | Start Vite dev server |
-| `npm run build` (client) | Build for production |
-| `npm start` (server) | Start production server |
-| `npm run dev` (server) | Start with nodemon (auto-restart) |
-
----
-
-## ✅ Summary of Commands
-
-```powershell
-# Terminal 1 - Start MongoDB (if not a service)
-mongod
-
-# Terminal 2 - Start Backend
-Set-Location -Path "c:/artory1/server"
-npm start
-
-# Terminal 3 - Start Frontend
-Set-Location -Path "c:/artory1/client"
-npm run dev
-```
-
-Then open: `http://localhost:5173` 🎉
-
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
