@@ -13,23 +13,25 @@ const VideoTutorial = require('../models/VideoTutorial');
 const aiMentor = async (req, res) => {
   try {
     const { message, context } = req.body;
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
 
     if (apiKey) {
       try {
-        const { OpenAI } = require('openai');
-        const openai = new OpenAI({ apiKey });
-        const completion = await openai.chat.completions.create({
-          model: 'gpt-4o-mini',
-          messages: [
-            { role: 'system', content: 'You are Aria, an expert AI art mentor. Give encouraging, specific, actionable advice to artists. Keep responses concise (2-3 sentences max).' },
-            { role: 'user', content: message }
-          ],
-          max_tokens: 200,
+        const { GoogleGenerativeAI } = require('@google/generative-ai');
+        const genAI = new GoogleGenerativeAI(apiKey);
+        const model = genAI.getGenerativeModel({
+          model: 'gemini-1.5-flash',
+          systemInstruction: 'You are Aria, an expert AI art mentor. Give encouraging, specific, actionable advice to artists. Keep responses concise (2-3 sentences max).'
         });
-        return res.json({ reply: completion.choices[0].message.content });
-      } catch (openAiErr) {
-        console.error('OpenAI API Error:', openAiErr.message);
+        
+        const result = await model.generateContent({
+          contents: [{ role: 'user', parts: [{ text: message }] }],
+          generationConfig: { maxOutputTokens: 200 }
+        });
+        
+        return res.json({ reply: result.response.text() });
+      } catch (geminiErr) {
+        console.error('Gemini API Error:', geminiErr.message);
         // Fall through to mock response below instead of crashing
       }
     }

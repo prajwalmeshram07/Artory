@@ -15,10 +15,10 @@ const storage = multer.diskStorage({
 });
 
 const fileFilter = (req, file, cb) => {
-  const allowed = /jpeg|jpg|png|gif|webp|mp4|mov/;
+  const allowed = /jpeg|jpg|png|gif|webp|mp4|mov|pdf|doc|docx|zip|rar/;
   const ext = path.extname(file.originalname).toLowerCase();
   if (allowed.test(ext)) cb(null, true);
-  else cb(new Error('Only images and videos are allowed'), false);
+  else cb(new Error('Only images, videos, documents, and archives are allowed'), false);
 };
 
 const upload = multer({

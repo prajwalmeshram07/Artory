@@ -11,12 +11,15 @@ connectDB();
 
 const app = express();
 const server = http.createServer(app);
+const allowedOrigins = [process.env.CLIENT_URL || 'http://localhost:5173', 'http://localhost:5174'];
+
 const io = new Server(server, {
-  cors: { origin: process.env.CLIENT_URL || 'http://localhost:5173', methods: ['GET', 'POST'] }
+  cors: { origin: allowedOrigins, methods: ['GET', 'POST'] }
 });
+app.set('io', io);
 
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -35,6 +38,7 @@ app.use('/api/verification', require('./routes/verification'));
 app.use('/api/comics', require('./routes/comics'));
 app.use('/api/arthistory', require('./routes/artHistory'));
 app.use('/api/admin', require('./routes/admin'));
+app.use('/api/marketplace', require('./routes/marketplace'));
 
 app.get('/', (req, res) => res.json({ message: '🎨 Artory API Running' }));
 
