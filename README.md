@@ -59,27 +59,7 @@ Make sure you have the following installed:
    npm install
    ```
 
-## 🔐 Environment Variables
 
-You need to create `.env` files in both the `client` and `server` directories.
-
-**`server/.env`**
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/artory
-JWT_SECRET=your_jwt_secret_key
-CLIENT_URL=http://localhost:5173
-OPENAI_API_KEY=your_openai_api_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-```
-
-**`client/.env`**
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_SOCKET_URL=http://localhost:5000
-```
 
 ## 🚀 Running the Application
 
