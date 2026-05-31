@@ -2,9 +2,17 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
-// Ensure uploads directory exists
-const uploadDir = path.join(__dirname, '../uploads');
-if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
+const os = require('os');
+
+// Ensure uploads directory exists (use temp directory in serverless environments)
+const uploadDir = process.env.NETLIFY ? os.tmpdir() : path.join(__dirname, '../uploads');
+try {
+  if (!fs.existsSync(uploadDir)) {
+    fs.mkdirSync(uploadDir, { recursive: true });
+  }
+} catch (mkdirErr) {
+  console.warn('⚠️ Warning: Failed to create upload directory:', mkdirErr.message);
+}
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, uploadDir),
