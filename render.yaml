@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: artory-backend
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        sync: false
+        placeholder: "Enter your MongoDB Atlas URI (e.g. mongodb+srv://...)"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CLIENT_URL
+        value: https://artory-platform.netlify.app
