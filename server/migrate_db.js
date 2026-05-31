@@ -28,15 +28,21 @@ async function migrate() {
 
       // Fetch all documents from local
       const docs = await localColl.find({}).toArray();
-      console.log(`  - Found ${docs.length} documents.`);
+      console.log(`  - Found ${docs.length} documents in local DB.`);
 
       if (docs.length > 0) {
-        // Clear existing data in atlas just in case (optional, but good for fresh sync)
-        await atlasColl.deleteMany({});
-        
-        // Insert into Atlas
-        const result = await atlasColl.insertMany(docs);
-        console.log(`  - Successfully inserted ${result.insertedCount} documents into Atlas.`);
+        // Create bulk operations for upserting (insert or update)
+        const bulkOps = docs.map(doc => ({
+          updateOne: {
+            filter: { _id: doc._id },
+            update: { $set: doc },
+            upsert: true
+          }
+        }));
+
+        console.log(`  - Uploading ${bulkOps.length} documents using safe upsert (no deletions)...`);
+        const result = await atlasColl.bulkWrite(bulkOps);
+        console.log(`  - Upsert result: Upserted: ${result.upsertedCount}, Modified: ${result.modifiedCount}`);
       } else {
         console.log(`  - Skipped (empty).`);
       }
