@@ -4,6 +4,10 @@ import toast from 'react-hot-toast';
 import { BookOpen, Heart, Plus, Search, X } from 'lucide-react';
 import ImageViewerModal from '../components/ImageViewerModal';
 import ReportButton from '../components/ReportButton';
+import * as pdfjsLib from 'pdfjs-dist';
+
+// Use a stable CDN for the worker to avoid build/configuration issues
+pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
 
 const API_BASE = 'http://localhost:5000';
 
@@ -11,7 +15,7 @@ export default function Comics() {
   const [comics, setComics] = useState([]);
   const [showCreate, setShowCreate] = useState(false);
   const [form, setForm] = useState({ title: '', description: '', genre: '' });
-  const [file, setFile] = useState(null);
+  const [files, setFiles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedComic, setSelectedComic] = useState(null);
   const [query, setQuery] = useState('');
@@ -20,15 +24,57 @@ export default function Comics() {
     api.get('/comics').then(r => setComics(r.data)).catch(() => {}).finally(() => setLoading(false));
   }, []);
 
+  const handleFileChange = async (e) => {
+    const selectedFiles = Array.from(e.target.files);
+    const pdfFile = selectedFiles.find(f => f.type === 'application/pdf');
+    
+    if (pdfFile) {
+      toast.loading('Converting PDF to images...', { id: 'pdf-convert' });
+      try {
+        const arrayBuffer = await pdfFile.arrayBuffer();
+        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+        const numPages = pdf.numPages;
+        const images = [];
+
+        for (let i = 1; i <= numPages; i++) {
+          const page = await pdf.getPage(i);
+          const viewport = page.getViewport({ scale: 2.0 });
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+
+          await page.render({ canvasContext: ctx, viewport }).promise;
+
+          const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', 0.8));
+          const imageFile = new File([blob], `page-${i}.jpg`, { type: 'image/jpeg' });
+          images.push(imageFile);
+        }
+        
+        const otherFiles = selectedFiles.filter(f => f !== pdfFile);
+        setFiles([...otherFiles, ...images]);
+        toast.success('PDF converted successfully!', { id: 'pdf-convert' });
+      } catch (err) {
+        toast.error('Failed to convert PDF', { id: 'pdf-convert' });
+      }
+    } else {
+      setFiles(selectedFiles);
+    }
+  };
+
   const create = async (e) => {
     e.preventDefault();
     const fd = new FormData();
     Object.entries(form).forEach(([k,v]) => fd.append(k,v));
-    if (file) fd.append('coverImage', file);
+    if (files && files.length > 0) {
+      Array.from(files).forEach(f => fd.append('images', f));
+    }
     try {
       const r = await api.post('/comics', fd, { headers: { 'Content-Type': 'multipart/form-data' }});
       setComics(prev => [r.data, ...prev]);
       setShowCreate(false);
+      setForm({ title: '', description: '', genre: '' });
+      setFiles([]);
       toast.success('Comic created!');
     } catch (err) { toast.error('Failed'); }
   };
@@ -67,7 +113,7 @@ export default function Comics() {
           <input value={form.title} onChange={e=>setForm({...form,title:e.target.value})} className="input" placeholder="Comic title" required />
           <textarea value={form.description} onChange={e=>setForm({...form,description:e.target.value})} className="input h-20 resize-none" placeholder="Description" />
           <input value={form.genre} onChange={e=>setForm({...form,genre:e.target.value})} className="input" placeholder="Genre" />
-          <input type="file" accept="image/*" onChange={e=>setFile(e.target.files[0])} className="input" />
+          <input type="file" accept="image/*,application/pdf" multiple onChange={handleFileChange} className="input" />
           <button type="submit" className="btn-primary">Create Comic</button>
         </form>
       )}
@@ -76,7 +122,7 @@ export default function Comics() {
       : filteredComics.length===0 ? <div className="text-center py-20 card"><p className="text-5xl mb-3">📚</p><p className="text-gray-400">No comics yet</p></div>
       : <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredComics.map(c=>(
-            <div key={c._id} className="card group hover:border-accent/40 cursor-pointer" onClick={() => setSelectedComic({ ...c, artist: c.creator, imageUrl: c.coverImage })}>
+            <div key={c._id} className="card group hover:border-accent/40 cursor-pointer" onClick={() => setSelectedComic({ ...c, artist: c.creator, imageUrl: c.coverImage, images: c.images })}>
               <div className="aspect-[3/4] rounded-xl overflow-hidden mb-4 bg-dark-border">
                 {c.coverImage ? <img src={c.coverImage.startsWith('http')?c.coverImage:`${API_BASE}${c.coverImage}`} alt={c.title} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/> : <div className="w-full h-full flex items-center justify-center"><BookOpen size={48} className="text-gray-600"/></div>}
               </div>
@@ -94,7 +140,13 @@ export default function Comics() {
           ))}
         </div>}
         
-      <ImageViewerModal isOpen={!!selectedComic} onClose={() => setSelectedComic(null)} artwork={selectedComic} reportTargetType="comic" />
+      <ImageViewerModal 
+        isOpen={!!selectedComic} 
+        onClose={() => setSelectedComic(null)} 
+        artwork={selectedComic} 
+        reportTargetType="comic" 
+        onDeleted={(id) => setComics(prev => prev.filter(c => c._id !== id))}
+      />
     </div>
   );
 }

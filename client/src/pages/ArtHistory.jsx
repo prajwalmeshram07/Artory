@@ -3,7 +3,7 @@ import api from '../services/api';
 import toast from 'react-hot-toast';
 import { Plus, X, Calendar, Landmark, Info, Clock, ExternalLink, Sparkles, BookOpen, Search } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import ImageViewerModal from '../components/ImageViewerModal';
+import HistoryViewerModal from '../components/HistoryViewerModal';
 
 const API_BASE = import.meta.env.VITE_API_URL?.replace('/api','') || 'http://localhost:5000';
 
@@ -191,7 +191,7 @@ export default function ArtHistory() {
         </div>
       )}
       
-      <ImageViewerModal isOpen={!!selectedPost} onClose={() => setSelectedPost(null)} artwork={selectedPost} />
+      <HistoryViewerModal isOpen={!!selectedPost} onClose={() => setSelectedPost(null)} post={selectedPost} />
     </div>
   );
 }

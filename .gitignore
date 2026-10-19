@@ -1,23 +1,53 @@
-# Node modules
+# Dependencies
 node_modules/
 **/node_modules/
 
-# Environment files
+# Environment files (exclude all secrets, allow only example template)
 .env
+.env.*
+*.env
+!.env.example
+!**/.env.example
 
-# Local logs and build output
-*.log
+# Build and distribution directories
+dist/
+**/dist/
+build/
 client/dist/
+dist-ssr/
+
+# Local logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 client/vite.log
 client/vite.err.log
 server/server.log
 
-# Uploaded files and temporary storage
-server/uploads/
+# Uploaded files and runtime storage
+server/uploads/*
+!server/uploads/.gitkeep
+uploads/
+tmp/
 
-# OS and editor files
+# OS and system files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Local Netlify folder
-.netlify
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cloud platform deployment caches
+.netlify/
+.vercel/

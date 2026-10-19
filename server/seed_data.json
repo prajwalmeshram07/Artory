@@ -1,0 +1,5515 @@
+{
+  "_meta": {
+    "exportedAt": "2026-10-19T07:38:24.072Z",
+    "database": "artory",
+    "totalCollections": 25,
+    "sanitizationNote": "All user passwords sanitized to bcrypt hash for \"Password@123\". Identity documents sanitized."
+  },
+  "collections": {
+    "users": [
+      {
+        "_id": "6a16a5a3993e0349e09262bc",
+        "username": "admin",
+        "email": "admin@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 30,
+        "bio": "System Administrator for Artory",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "admin",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-05-27T08:04:51.936Z",
+        "updatedAt": "2026-05-31T14:46:40.191Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262be",
+        "username": "aimentor_official",
+        "email": "aimentor@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": null,
+        "bio": "Official AI Mentor Account",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=aimentor",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "mentor",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-05-27T08:04:51.941Z",
+        "updatedAt": "2026-05-27T08:04:51.941Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262bf",
+        "username": "pro_artist_mike",
+        "email": "mike@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": null,
+        "bio": "Professional Concept Artist with 10 years in the industry.",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=mike",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "mentor",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-05-27T08:04:51.942Z",
+        "updatedAt": "2026-05-27T08:04:51.942Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c0",
+        "username": "prajwalmeshram",
+        "email": "prajwalmeshram@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 38,
+        "bio": "teacher",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=prajwalmeshram",
+        "coverImage": "https://picsum.photos/seed/1415badc-749b-440d-920a-ada5f2eb714d/800/600",
+        "skills": [
+          "abstract",
+          "portrait",
+          "logo"
+        ],
+        "artInterests": [
+          "cyberpunk",
+          "character design",
+          "ui/ux"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "@prajwalmeshram",
+          "twitter": "@prajwalmeshram",
+          "website": ""
+        },
+        "__v": 0,
+        "createdAt": "2026-05-27T08:04:51.945Z",
+        "updatedAt": "2026-05-27T08:04:51.945Z"
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c1",
+        "username": "mahakmarmat",
+        "email": "mahakmarmat@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 38,
+        "bio": "skyscraper fan, leader",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=mahakmarmat",
+        "coverImage": "https://picsum.photos/seed/c990ee97-5561-46d5-817d-ebaa79757256/800/600",
+        "skills": [
+          "portrait",
+          "cyberpunk",
+          "landscape"
+        ],
+        "artInterests": [
+          "anime",
+          "realistic",
+          "cyberpunk"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "@mahakmarmat",
+          "twitter": "@mahakmarmat",
+          "website": ""
+        },
+        "__v": 0,
+        "createdAt": "2026-05-27T08:04:51.945Z",
+        "updatedAt": "2026-05-27T08:04:51.945Z"
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c2",
+        "username": "pratiksingh",
+        "email": "pratiksingh@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 23,
+        "bio": "cake devotee, developer",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=pratiksingh",
+        "coverImage": "https://picsum.photos/seed/32fa68d6-f873-4a9c-bdd4-685310670839/800/600",
+        "skills": [
+          "character design",
+          "ui/ux",
+          "concept art"
+        ],
+        "artInterests": [
+          "abstract",
+          "anime",
+          "logo"
+        ],
+        "followers": [
+          "6a300638c969ec266a785892"
+        ],
+        "following": [],
+        "isVerified": true,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "@pratiksingh",
+          "twitter": "@pratiksingh",
+          "website": ""
+        },
+        "__v": 7,
+        "createdAt": "2026-05-27T08:04:51.945Z",
+        "updatedAt": "2026-06-15T15:17:33.271Z"
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c3",
+        "username": "parichitahirwal",
+        "email": "parichitahirwal@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 33,
+        "bio": "pearl advocate",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=parichitahirwal",
+        "coverImage": "https://picsum.photos/seed/62b9e278-1319-4656-b24d-4c4b627a9418/800/600",
+        "skills": [
+          "character design",
+          "concept art",
+          "manga"
+        ],
+        "artInterests": [
+          "anime",
+          "logo",
+          "cyberpunk"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "@parichitahirwal",
+          "twitter": "@parichitahirwal",
+          "website": ""
+        },
+        "__v": 0,
+        "createdAt": "2026-05-27T08:04:51.945Z",
+        "updatedAt": "2026-05-27T08:04:51.945Z"
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c4",
+        "username": "pranjalpal",
+        "email": "pranjalpal@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 40,
+        "bio": "tribe junkie, leader 🥌",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=pranjalpal",
+        "coverImage": "https://picsum.photos/seed/fd00edfc-7510-4987-ae00-857adf8dd51e/800/600",
+        "skills": [
+          "ui/ux",
+          "anime",
+          "concept art"
+        ],
+        "artInterests": [
+          "logo",
+          "manga",
+          "ui/ux"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "@pranjalpal",
+          "twitter": "@pranjalpal",
+          "website": ""
+        },
+        "__v": 6,
+        "createdAt": "2026-05-27T08:04:51.945Z",
+        "updatedAt": "2026-08-14T17:00:22.084Z"
+      },
+      {
+        "_id": "6a300638c969ec266a78588f",
+        "username": "admin_seed",
+        "email": "admin_seed@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 30,
+        "bio": "System Administrator for Artory Hub.",
+        "profileImage": "",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "admin",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-06-15T14:03:36.460Z",
+        "updatedAt": "2026-06-15T14:03:36.460Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a300638c969ec266a785891",
+        "username": "vincent_van",
+        "email": "vincent@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 37,
+        "bio": "Passionate oil painter and traditional sketching mentor.",
+        "profileImage": "",
+        "coverImage": "",
+        "skills": [
+          "Painting",
+          "Sketching",
+          "Oil Canvas"
+        ],
+        "artInterests": [
+          "Impressionism",
+          "Post-Impressionism"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": true,
+        "role": "mentor",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-06-15T14:03:36.467Z",
+        "updatedAt": "2026-06-15T14:03:36.467Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a300638c969ec266a785892",
+        "username": "art_collector",
+        "email": "collector@artory.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 28,
+        "bio": "Enthusiast collecting classic canvas recreations and modern digital assets.",
+        "profileImage": "",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [],
+        "followers": [],
+        "following": [
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "isVerified": false,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-06-15T14:03:36.469Z",
+        "updatedAt": "2026-06-15T15:17:33.270Z",
+        "__v": 7
+      },
+      {
+        "_id": "6a7f38fa69faff7232067aab",
+        "username": "prajwal meshram",
+        "email": "prajwalmeshram@gmail.com",
+        "password": "$2a$10$gG/uBy7KbNbGGQf5wi0OTu9x31hOISpE6YipNe3Q5lY3jp14J0XQu",
+        "age": 22,
+        "bio": "art",
+        "profileImage": "",
+        "coverImage": "",
+        "skills": [],
+        "artInterests": [
+          "Digital Art",
+          "Painting",
+          "Sketch"
+        ],
+        "followers": [],
+        "following": [],
+        "isVerified": false,
+        "role": "user",
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": ""
+        },
+        "createdAt": "2026-08-14T15:49:14.281Z",
+        "updatedAt": "2026-08-14T17:00:22.082Z",
+        "__v": 6
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "6a16a5a4993e0349e0926371",
+        "request": "6a16a5a4993e0349e092636f",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "reviewer": "6a16a5a3993e0349e09262bc",
+        "rating": 4,
+        "review": "Fantastic work! Delivered exactly what I wanted.",
+        "createdAt": "2026-05-27T08:04:52.112Z",
+        "updatedAt": "2026-05-27T08:04:52.112Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926379",
+        "request": "6a16a5a4993e0349e0926377",
+        "artist": "6a16a5a3993e0349e09262bf",
+        "reviewer": "6a16a5a3993e0349e09262be",
+        "rating": 5,
+        "review": "Fantastic work! Delivered exactly what I wanted.",
+        "createdAt": "2026-05-27T08:04:52.118Z",
+        "updatedAt": "2026-05-27T08:04:52.118Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092637f",
+        "request": "6a16a5a4993e0349e092637d",
+        "artist": "6a16a5a3993e0349e09262bc",
+        "reviewer": "6a16a5a3993e0349e09262c4",
+        "rating": 5,
+        "review": "Fantastic work! Delivered exactly what I wanted.",
+        "createdAt": "2026-05-27T08:04:52.121Z",
+        "updatedAt": "2026-05-27T08:04:52.121Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926385",
+        "request": "6a16a5a4993e0349e0926383",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "reviewer": "6a16a5a3993e0349e09262bc",
+        "rating": 5,
+        "review": "Fantastic work! Delivered exactly what I wanted.",
+        "createdAt": "2026-05-27T08:04:52.124Z",
+        "updatedAt": "2026-05-27T08:04:52.124Z",
+        "__v": 0
+      }
+    ],
+    "messages": [],
+    "notifications": [
+      {
+        "_id": "6a16a5a4993e0349e0926393",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "type": "comment",
+        "message": "pro_artist_mike started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.133Z",
+        "updatedAt": "2026-05-27T08:04:52.133Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926394",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a16a5a3993e0349e09262c1",
+        "type": "like",
+        "message": "mahakmarmat liked your post",
+        "link": "",
+        "isRead": true,
+        "createdAt": "2026-05-27T08:04:52.134Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926395",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "type": "comment",
+        "message": "admin liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.134Z",
+        "updatedAt": "2026-05-27T08:04:52.134Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926396",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "type": "like",
+        "message": "parichitahirwal liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.134Z",
+        "updatedAt": "2026-05-27T08:04:52.134Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926397",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a16a5a3993e0349e09262c1",
+        "type": "like",
+        "message": "mahakmarmat commented on your artwork",
+        "link": "",
+        "isRead": true,
+        "createdAt": "2026-05-27T08:04:52.135Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926398",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "type": "follow",
+        "message": "prajwalmeshram liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.135Z",
+        "updatedAt": "2026-05-27T08:04:52.135Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926399",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "type": "like",
+        "message": "prajwalmeshram started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.136Z",
+        "updatedAt": "2026-05-27T08:04:52.136Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639a",
+        "recipient": "6a16a5a3993e0349e09262bf",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "type": "like",
+        "message": "admin started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.137Z",
+        "updatedAt": "2026-05-27T08:04:52.137Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639b",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "type": "follow",
+        "message": "pro_artist_mike liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.137Z",
+        "updatedAt": "2026-05-27T08:04:52.137Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639c",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "type": "like",
+        "message": "prajwalmeshram liked your post",
+        "link": "",
+        "isRead": true,
+        "createdAt": "2026-05-27T08:04:52.137Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639d",
+        "recipient": "6a16a5a3993e0349e09262c1",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "type": "comment",
+        "message": "admin liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.138Z",
+        "updatedAt": "2026-05-27T08:04:52.138Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639e",
+        "recipient": "6a16a5a3993e0349e09262bf",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "type": "like",
+        "message": "admin started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.138Z",
+        "updatedAt": "2026-05-27T08:04:52.138Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092639f",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a16a5a3993e0349e09262c2",
+        "type": "follow",
+        "message": "pratiksingh liked your post",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.139Z",
+        "updatedAt": "2026-05-27T08:04:52.139Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a0",
+        "recipient": "6a16a5a3993e0349e09262bf",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "type": "like",
+        "message": "parichitahirwal started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.139Z",
+        "updatedAt": "2026-05-27T08:04:52.139Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a1",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "type": "follow",
+        "message": "parichitahirwal commented on your artwork",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.140Z",
+        "updatedAt": "2026-05-27T08:04:52.140Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a2",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "type": "comment",
+        "message": "pro_artist_mike started following you",
+        "link": "",
+        "isRead": true,
+        "createdAt": "2026-05-27T08:04:52.140Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a3",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "type": "like",
+        "message": "pro_artist_mike started following you",
+        "link": "",
+        "isRead": false,
+        "createdAt": "2026-05-27T08:04:52.141Z",
+        "updatedAt": "2026-05-27T08:04:52.141Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a4",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "type": "like",
+        "message": "parichitahirwal started following you",
+        "link": "",
+        "isRead": true,
+        "createdAt": "2026-05-27T08:04:52.142Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a3014441278fadfd3515f12",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "like",
+        "message": "art_collector liked your artwork",
+        "link": "/artwork/6a16a5a3993e0349e09262f2",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:03:32.660Z",
+        "updatedAt": "2026-06-15T15:03:32.660Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a3014491278fadfd3515f13",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "like",
+        "message": "art_collector liked your artwork",
+        "link": "/artwork/6a16a5a3993e0349e09262f2",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:03:37.009Z",
+        "updatedAt": "2026-06-15T15:03:37.009Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a30144b1278fadfd3515f14",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "like",
+        "message": "art_collector liked your artwork",
+        "link": "/artwork/6a16a5a3993e0349e09262f2",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:03:39.024Z",
+        "updatedAt": "2026-06-15T15:03:39.024Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a30166e1278fadfd3515f16",
+        "recipient": "6a16a5a3993e0349e09262be",
+        "sender": "6a300638c969ec266a785892",
+        "type": "comment",
+        "message": "art_collector commented on your artwork",
+        "link": "/artwork/6a16a5a3993e0349e09262e0",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:12:46.283Z",
+        "updatedAt": "2026-06-15T15:12:46.283Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a3016f21278fadfd3515f17",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "follow",
+        "message": "you got a new follower art_collector",
+        "link": "/profile/6a300638c969ec266a785892",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:14:58.371Z",
+        "updatedAt": "2026-06-15T15:14:58.371Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a3016f51278fadfd3515f18",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "follow",
+        "message": "you got a new follower art_collector",
+        "link": "/profile/6a300638c969ec266a785892",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:15:01.297Z",
+        "updatedAt": "2026-06-15T15:15:01.297Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a30172e1278fadfd3515f19",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "follow",
+        "message": "you got a new follower art_collector",
+        "link": "/profile/6a300638c969ec266a785892",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:15:58.964Z",
+        "updatedAt": "2026-06-15T15:15:58.964Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a30178d1278fadfd3515f1a",
+        "recipient": "6a16a5a3993e0349e09262c2",
+        "sender": "6a300638c969ec266a785892",
+        "type": "follow",
+        "message": "you got a new follower art_collector",
+        "link": "/profile/6a300638c969ec266a785892",
+        "isRead": false,
+        "createdAt": "2026-06-15T15:17:33.267Z",
+        "updatedAt": "2026-06-15T15:17:33.267Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a33fe4aee249fce46ef9395",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a300638c969ec266a785892",
+        "type": "community",
+        "message": "art_collector joined \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-06-18T14:18:50.154Z",
+        "updatedAt": "2026-06-18T14:18:50.154Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a33fe5cee249fce46ef939c",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a300638c969ec266a785892",
+        "type": "competition",
+        "message": "art_collector joined \"Global Cyberpunk Art Contest 2026\"",
+        "link": "/competitions",
+        "isRead": true,
+        "createdAt": "2026-06-18T14:19:08.855Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3afd69faff7232067aac",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T15:57:49.956Z",
+        "updatedAt": "2026-08-14T15:57:49.956Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3b0269faff7232067aad",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T15:57:54.336Z",
+        "updatedAt": "2026-08-14T15:57:54.336Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3b0269faff7232067aae",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T15:57:54.563Z",
+        "updatedAt": "2026-08-14T15:57:54.563Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3b0469faff7232067aaf",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T15:57:56.115Z",
+        "updatedAt": "2026-08-14T15:57:56.115Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3b5869faff7232067ab0",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T15:59:20.775Z",
+        "updatedAt": "2026-08-14T15:59:20.775Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3ba269faff7232067ab1",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:00:34.157Z",
+        "updatedAt": "2026-08-14T16:00:34.157Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3ba569faff7232067ab2",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:00:37.142Z",
+        "updatedAt": "2026-08-14T16:00:37.142Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3ba769faff7232067ab3",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:00:39.117Z",
+        "updatedAt": "2026-08-14T16:00:39.117Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3ba869faff7232067ab4",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:00:40.450Z",
+        "updatedAt": "2026-08-14T16:00:40.450Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3bef69faff7232067ab5",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:01:51.838Z",
+        "updatedAt": "2026-08-14T16:01:51.838Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3bf469faff7232067ab6",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:01:56.547Z",
+        "updatedAt": "2026-08-14T16:01:56.547Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3bfb69faff7232067ab7",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Classic Art\"",
+        "link": "/community/6a16a5a3993e0349e09262c7",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:02:03.748Z",
+        "updatedAt": "2026-08-14T16:02:03.748Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3c0369faff7232067ab8",
+        "recipient": "6a16a5a3993e0349e09262c3",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Classic Art\"",
+        "link": "/community/6a16a5a3993e0349e09262c7",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:02:11.063Z",
+        "updatedAt": "2026-08-14T16:02:11.063Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3c0469faff7232067ab9",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram left \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:02:12.169Z",
+        "updatedAt": "2026-08-14T16:02:12.169Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3cc869faff7232067ac0",
+        "recipient": "6a16a5a3993e0349e09262bc",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "competition",
+        "message": "prajwal meshram joined \"Global Cyberpunk Art Contest 2026\"",
+        "link": "/competitions",
+        "isRead": true,
+        "createdAt": "2026-08-14T16:05:28.876Z",
+        "updatedAt": "2026-08-14T17:08:53.181Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f3e2569faff7232067b1f",
+        "recipient": "6a300638c969ec266a785892",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "like",
+        "message": "prajwal meshram liked your artwork",
+        "link": "/artwork/6a300b6bf1aef4c47e2b7efb",
+        "isRead": false,
+        "createdAt": "2026-08-14T16:11:17.978Z",
+        "updatedAt": "2026-08-14T16:11:17.978Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f49a069faff7232067b28",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "follow",
+        "message": "you got a new follower prajwal meshram",
+        "link": "/profile/6a7f38fa69faff7232067aab",
+        "isRead": false,
+        "createdAt": "2026-08-14T17:00:16.487Z",
+        "updatedAt": "2026-08-14T17:00:16.487Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f49a369faff7232067b29",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "follow",
+        "message": "you got a new follower prajwal meshram",
+        "link": "/profile/6a7f38fa69faff7232067aab",
+        "isRead": false,
+        "createdAt": "2026-08-14T17:00:19.972Z",
+        "updatedAt": "2026-08-14T17:00:19.972Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7f49a569faff7232067b2a",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "follow",
+        "message": "you got a new follower prajwal meshram",
+        "link": "/profile/6a7f38fa69faff7232067aab",
+        "isRead": false,
+        "createdAt": "2026-08-14T17:00:21.539Z",
+        "updatedAt": "2026-08-14T17:00:21.539Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a80181d5d98a58e733b1599",
+        "recipient": "6a16a5a3993e0349e09262c4",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Anime World\"",
+        "link": "/community/6a16a5a3993e0349e09262c8",
+        "isRead": false,
+        "createdAt": "2026-08-15T07:41:17.489Z",
+        "updatedAt": "2026-08-15T07:41:17.489Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8018535d98a58e733b159a",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a7f38fa69faff7232067aab",
+        "type": "community",
+        "message": "prajwal meshram joined \"Digital Painting\"",
+        "link": "/community/6a16a5a3993e0349e09262c9",
+        "isRead": false,
+        "createdAt": "2026-08-15T07:42:11.123Z",
+        "updatedAt": "2026-08-15T07:42:11.123Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97da4ffc5e90913b2ae116",
+        "recipient": "6a16a5a3993e0349e09262c0",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "type": "like",
+        "message": "admin liked your artwork",
+        "link": "/artwork/6a16a5a3993e0349e09262e3",
+        "isRead": false,
+        "createdAt": "2026-09-02T08:11:59.231Z",
+        "updatedAt": "2026-09-02T08:11:59.231Z",
+        "__v": 0
+      }
+    ],
+    "arthistories": [
+      {
+        "_id": "6a982c9dfc5e90913b2ae17b",
+        "title": "mona lisa ",
+        "description": "Artwork HistoryCreated: Painted in June 1889.Context: Van Gogh painted it from the window of his room at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, where he admitted himself after a severe mental breakdown.Technique: Features heavy, rhythmic impasto brushstrokes—applying thick paint directly to the canvas—giving the sky a dynamic sense of motion.Legacy: The painting depicts an idealized view of the village just before sunrise, incorporating a fictional Dutch-style church spire reminiscent of his homeland. It now resides permanently in the Museum of Modern Art (MoMA) in New York City.",
+        "imageUrl": "/uploads/1788357789316-764203630.jpeg",
+        "historyDate": "1889-06-07T00:00:00.000Z",
+        "author": "6a16a5a3993e0349e09262bc",
+        "createdAt": "2026-09-02T14:03:09.322Z",
+        "updatedAt": "2026-09-02T14:03:09.322Z",
+        "__v": 0
+      }
+    ],
+    "mentors": [
+      {
+        "_id": "6a16a5a3993e0349e09262c5",
+        "userId": "6a16a5a3993e0349e09262be",
+        "name": "Artory AI Mentor",
+        "bio": "I can guide you step-by-step through any art style.",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=aimentor",
+        "tags": [
+          "ai",
+          "all styles",
+          "basics"
+        ],
+        "skills": [
+          "Digital Art",
+          "Theory",
+          "Feedback"
+        ],
+        "teachingCategories": [
+          "Beginner",
+          "Theory"
+        ],
+        "experience": 100,
+        "rating": 4.9,
+        "reviewCount": 520,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-05-27T08:04:51.949Z",
+        "updatedAt": "2026-06-15T18:28:35.365Z",
+        "__v": 2
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c6",
+        "userId": "6a16a5a3993e0349e09262bf",
+        "name": "Mike The Concept Artist",
+        "bio": "Professional Concept Artist with 10 years in the industry.",
+        "profileImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=mike",
+        "tags": [
+          "concept art",
+          "cyberpunk",
+          "industry"
+        ],
+        "skills": [
+          "Digital Painting",
+          "Character Design"
+        ],
+        "teachingCategories": [
+          "Advanced",
+          "Concept Art"
+        ],
+        "experience": 10,
+        "rating": 4.8,
+        "reviewCount": 15,
+        "price": 50,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "",
+          "twitter": "",
+          "website": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-05-27T08:04:51.949Z",
+        "updatedAt": "2026-05-27T08:04:51.949Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d491b590c0e93eca1a6e",
+        "userId": null,
+        "name": "Elena Vasquez",
+        "bio": "Master portrait artist with exhibitions in Paris, New York, and Tokyo. Trained at the Florence Academy of Art, Elena teaches the classical realism approach to portrait drawing — capturing soul through eyes, light, and shadow. Her students consistently win national portrait competitions.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=ElenaVasquez&backgroundColor=be185d",
+        "tags": [
+          "portrait",
+          "pencil sketching",
+          "realistic drawing",
+          "figure drawing",
+          "charcoal art"
+        ],
+        "skills": [
+          "portrait anatomy",
+          "charcoal shading",
+          "pencil rendering",
+          "facial proportions",
+          "skin tones"
+        ],
+        "teachingCategories": [
+          "Portrait Art",
+          "Pencil Sketching",
+          "Realistic Drawing"
+        ],
+        "experience": 17,
+        "rating": 4.9,
+        "reviewCount": 521,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://elenavasquez.art",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:29.941Z",
+        "updatedAt": "2026-09-02T07:47:29.941Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a6f",
+        "userId": null,
+        "name": "Theo Nakashima",
+        "bio": "Abstract expressionist and installation artist whose large-scale murals have been displayed in galleries across Europe and Asia. Theo teaches the language of color, emotion, and spontaneous mark-making — helping artists unlock total creative freedom beyond rules.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=TheoNakashima&backgroundColor=7e22ce",
+        "tags": [
+          "abstract art",
+          "expressionism",
+          "modern art",
+          "color theory",
+          "mixed media",
+          "contemporary"
+        ],
+        "skills": [
+          "acrylic abstraction",
+          "color blocking",
+          "texture techniques",
+          "canvas composition",
+          "mixed media collage"
+        ],
+        "teachingCategories": [
+          "Abstract Art",
+          "Modern Art",
+          "Expressionism"
+        ],
+        "experience": 12,
+        "rating": 4.7,
+        "reviewCount": 198,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "twitter": "https://twitter.com",
+          "website": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.017Z",
+        "updatedAt": "2026-09-02T07:47:30.017Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a70",
+        "userId": null,
+        "name": "Danny Rivera",
+        "bio": "Former DC and Marvel comics colorist turned independent creator. Danny has inked and colored over 400 comic book pages professionally. He teaches dynamic panel layouts, superhero anatomy, ink hatching, and the secrets of sequential storytelling that publishers actually want.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=DannyRivera&backgroundColor=1d4ed8",
+        "tags": [
+          "comic book art",
+          "superhero",
+          "manga panels",
+          "sequential art",
+          "inking",
+          "comics"
+        ],
+        "skills": [
+          "panel composition",
+          "dynamic poses",
+          "ink hatching",
+          "speech bubble design",
+          "color flatting"
+        ],
+        "teachingCategories": [
+          "Comic Art",
+          "Sequential Art",
+          "Inking"
+        ],
+        "experience": 15,
+        "rating": 4.8,
+        "reviewCount": 344,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://dannyrivera.comics",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.020Z",
+        "updatedAt": "2026-09-02T07:47:30.020Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a71",
+        "userId": null,
+        "name": "Isabella Fontaine",
+        "bio": "Renowned fashion illustrator for Vogue, Elle, and Chanel campaigns. Isabella bridges the worlds of high fashion and fine art, teaching the elegant elongated figure, fabric draping, and the distinctive style of runway illustration that lands real commercial clients.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=IsabellaFontaine&backgroundColor=db2777",
+        "tags": [
+          "fashion illustration",
+          "runway art",
+          "figure drawing",
+          "editorial illustration",
+          "luxury design"
+        ],
+        "skills": [
+          "fashion figure proportions",
+          "fabric rendering",
+          "Copic markers",
+          "editorial layout",
+          "fashion sketching"
+        ],
+        "teachingCategories": [
+          "Fashion Illustration",
+          "Editorial Art",
+          "Figure Drawing"
+        ],
+        "experience": 11,
+        "rating": 4.8,
+        "reviewCount": 267,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://isabellafashionart.com",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.023Z",
+        "updatedAt": "2026-09-02T07:47:30.023Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a72",
+        "userId": null,
+        "name": "Kazu Pixel",
+        "bio": "Indie game developer and pixel art legend behind three cult-classic retro games on Steam. Kazu teaches the forgotten art of pixel-perfect sprite creation, 16-bit animation loops, retro color palettes, and building entire game worlds one pixel at a time.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=KazuPixel&backgroundColor=064e3b",
+        "tags": [
+          "pixel art",
+          "retro gaming",
+          "8-bit art",
+          "16-bit art",
+          "sprite design",
+          "game art",
+          "indie game"
+        ],
+        "skills": [
+          "sprite animation",
+          "pixel shading",
+          "isometric pixel art",
+          "tileset design",
+          "Aseprite"
+        ],
+        "teachingCategories": [
+          "Pixel Art",
+          "Game Art",
+          "Retro Animation"
+        ],
+        "experience": 9,
+        "rating": 4.9,
+        "reviewCount": 412,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "website": "https://kazupixel.itch.io",
+          "youtube": "https://youtube.com",
+          "instagram": "",
+          "twitter": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.025Z",
+        "updatedAt": "2026-09-02T07:47:30.025Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a73",
+        "userId": null,
+        "name": "Amara Osei",
+        "bio": "Master calligrapher and hand lettering artist who fuses West African Adinkra symbols with modern typography. Amara's work has appeared in Nike and Google campaigns. She teaches brush pen calligraphy, modern lettering composition, and building a signature typographic style.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=AmaraOsei&backgroundColor=92400e",
+        "tags": [
+          "calligraphy",
+          "hand lettering",
+          "typography",
+          "brush pen",
+          "lettering art",
+          "script writing"
+        ],
+        "skills": [
+          "brush lettering",
+          "pointed pen calligraphy",
+          "Procreate lettering",
+          "composition",
+          "flourishing"
+        ],
+        "teachingCategories": [
+          "Calligraphy",
+          "Hand Lettering",
+          "Typography"
+        ],
+        "experience": 8,
+        "rating": 4.8,
+        "reviewCount": 289,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "youtube": "https://youtube.com",
+          "twitter": "",
+          "website": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.027Z",
+        "updatedAt": "2026-09-02T07:47:30.027Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a74",
+        "userId": null,
+        "name": "Pete \"Sketch\" Morales",
+        "bio": "Professional caricaturist who has sketched celebrities at red carpets and worked with Disney's character experience team. Pete teaches the art of exaggeration — how to find the essence of a face, amplify it perfectly, and create cartoon characters that are both recognizable and hilarious.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=PeteMorales&backgroundColor=d97706",
+        "tags": [
+          "caricature",
+          "cartoon art",
+          "character design",
+          "exaggeration",
+          "humour illustration",
+          "editorial cartoon"
+        ],
+        "skills": [
+          "face exaggeration",
+          "quick sketching",
+          "digital caricature",
+          "cartoon shading",
+          "expression design"
+        ],
+        "teachingCategories": [
+          "Caricature",
+          "Cartoon Art",
+          "Character Design"
+        ],
+        "experience": 14,
+        "rating": 4.7,
+        "reviewCount": 176,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "twitter": "https://twitter.com",
+          "website": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.030Z",
+        "updatedAt": "2026-09-02T07:47:30.030Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a75",
+        "userId": null,
+        "name": "Sophie Beaumont",
+        "bio": "Soft pastel and gouache artist specializing in dreamy impressionist landscapes and floral still life. Sophie's work evokes warmth, nostalgia, and painterly softness. She teaches light color harmony, layering soft pastels, and building luminous paintings that feel like memories.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=SophieBeaumont&backgroundColor=9d174d",
+        "tags": [
+          "pastel art",
+          "gouache",
+          "impressionism",
+          "landscape painting",
+          "floral art",
+          "soft art",
+          "still life"
+        ],
+        "skills": [
+          "soft pastel blending",
+          "gouache painting",
+          "color harmony",
+          "floral composition",
+          "light and atmosphere"
+        ],
+        "teachingCategories": [
+          "Pastel Art",
+          "Gouache",
+          "Impressionism"
+        ],
+        "experience": 10,
+        "rating": 4.8,
+        "reviewCount": 231,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://sophiebaumont.art",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.033Z",
+        "updatedAt": "2026-09-02T07:47:30.033Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a76",
+        "userId": null,
+        "name": "Dr. Nadia Green",
+        "bio": "Botanical illustrator for the Royal Botanic Gardens Kew and published author of two scientific illustration books. Nadia teaches hyper-accurate nature illustration using traditional ink and watercolor — perfect for artists who love detail, science, and the natural world.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=NadiaGreen&backgroundColor=166534",
+        "tags": [
+          "botanical illustration",
+          "nature art",
+          "scientific illustration",
+          "plants",
+          "floral",
+          "ink drawing"
+        ],
+        "skills": [
+          "stippling",
+          "ink line work",
+          "watercolor layering",
+          "plant anatomy",
+          "scientific accuracy"
+        ],
+        "teachingCategories": [
+          "Botanical Art",
+          "Scientific Illustration",
+          "Nature Drawing"
+        ],
+        "experience": 19,
+        "rating": 4.9,
+        "reviewCount": 308,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://botanicalkew.com",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.036Z",
+        "updatedAt": "2026-09-02T07:47:30.036Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a97d492b590c0e93eca1a77",
+        "userId": null,
+        "name": "Marco Stellini",
+        "bio": "Architectural visualizer and urban sketcher who has worked on landmark projects across Italy, UAE, and Singapore. Marco teaches perspective drawing, architectural rendering, and the romantic tradition of urban sketching — capturing cities in ink and watercolor on location.",
+        "profileImage": "https://api.dicebear.com/9.x/personas/svg?seed=MarcoStellini&backgroundColor=1e40af",
+        "tags": [
+          "architecture art",
+          "perspective drawing",
+          "urban sketching",
+          "architectural rendering",
+          "technical drawing"
+        ],
+        "skills": [
+          "1 & 2 point perspective",
+          "architectural line work",
+          "urban sketching",
+          "ink wash",
+          "3D rendering basics"
+        ],
+        "teachingCategories": [
+          "Architecture Art",
+          "Perspective Drawing",
+          "Urban Sketching"
+        ],
+        "experience": 16,
+        "rating": 4.8,
+        "reviewCount": 195,
+        "price": 0,
+        "isAvailable": true,
+        "socialLinks": {
+          "instagram": "https://instagram.com",
+          "website": "https://stelliniarchitecture.com",
+          "twitter": "",
+          "youtube": ""
+        },
+        "followers": [],
+        "createdAt": "2026-09-02T07:47:30.037Z",
+        "updatedAt": "2026-09-02T07:47:30.037Z",
+        "__v": 0
+      }
+    ],
+    "videotutorials": [],
+    "applications": [
+      {
+        "_id": "6a16a5a4993e0349e092635c",
+        "request": "6a16a5a4993e0349e092635b",
+        "artist": "6a16a5a3993e0349e09262c1",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.096Z",
+        "updatedAt": "2026-05-27T08:04:52.096Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926361",
+        "request": "6a16a5a4993e0349e0926360",
+        "artist": "6a16a5a3993e0349e09262c3",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.102Z",
+        "updatedAt": "2026-05-27T08:04:52.102Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926366",
+        "request": "6a16a5a4993e0349e0926365",
+        "artist": "6a16a5a3993e0349e09262be",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.105Z",
+        "updatedAt": "2026-05-27T08:04:52.105Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092636b",
+        "request": "6a16a5a4993e0349e092636a",
+        "artist": "6a16a5a3993e0349e09262c4",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.108Z",
+        "updatedAt": "2026-05-27T08:04:52.108Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926370",
+        "request": "6a16a5a4993e0349e092636f",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Accepted",
+        "createdAt": "2026-05-27T08:04:52.110Z",
+        "updatedAt": "2026-05-27T08:04:52.110Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926378",
+        "request": "6a16a5a4993e0349e0926377",
+        "artist": "6a16a5a3993e0349e09262bf",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Accepted",
+        "createdAt": "2026-05-27T08:04:52.116Z",
+        "updatedAt": "2026-05-27T08:04:52.116Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092637e",
+        "request": "6a16a5a4993e0349e092637d",
+        "artist": "6a16a5a3993e0349e09262bc",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Accepted",
+        "createdAt": "2026-05-27T08:04:52.120Z",
+        "updatedAt": "2026-05-27T08:04:52.120Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926384",
+        "request": "6a16a5a4993e0349e0926383",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "message": "I would love to work on this! Here is my portfolio.",
+        "portfolioLinks": [],
+        "sampleFiles": [],
+        "status": "Accepted",
+        "createdAt": "2026-05-27T08:04:52.123Z",
+        "updatedAt": "2026-05-27T08:04:52.123Z",
+        "__v": 0
+      }
+    ],
+    "groups": [],
+    "artrequests": [
+      {
+        "_id": "6a16a5a4993e0349e092635b",
+        "creator": "6a16a5a3993e0349e09262c0",
+        "acceptedArtist": "6a16a5a3993e0349e09262c1",
+        "acceptedApplication": "6a16a5a4993e0349e092635c",
+        "title": "Book cover illustration",
+        "description": "Commodo curriculum tactus tam adhaero terror distinctio attero modi arx. Stultus vespillo vir possimus dignissimos aestivus cursus abbas. Sequi sursum culpa volubilis vito viridis spectaculum benevolentia comprehendo.",
+        "category": "Digital Art",
+        "budget": {
+          "min": 1758,
+          "max": 8946,
+          "currency": "INR"
+        },
+        "deadline": "2026-06-15T06:56:02.836Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/8253aa4d-0369-4d26-99fe-5749dc573915/800/600"
+        ],
+        "status": "Pending",
+        "createdAt": "2026-05-27T08:04:52.094Z",
+        "updatedAt": "2026-05-27T08:04:52.097Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926360",
+        "creator": "6a16a5a3993e0349e09262c4",
+        "acceptedArtist": "6a16a5a3993e0349e09262c3",
+        "acceptedApplication": "6a16a5a4993e0349e0926361",
+        "title": "Logo design",
+        "description": "Aliquam nisi viridis laudantium trans supra ait. Venia volutabrum calcar. Absconditus toties adiuvo assumenda ustulo tamquam adeo animi adaugeo blandior.",
+        "category": "Calligraphy",
+        "budget": {
+          "min": 1830,
+          "max": 8471,
+          "currency": "INR"
+        },
+        "deadline": "2027-02-17T14:14:13.965Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/badd73a6-7a4e-4444-90d0-484c402c1b60/800/600"
+        ],
+        "status": "Pending",
+        "createdAt": "2026-05-27T08:04:52.102Z",
+        "updatedAt": "2026-05-27T08:04:52.103Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926365",
+        "creator": "6a16a5a3993e0349e09262bc",
+        "acceptedArtist": "6a16a5a3993e0349e09262be",
+        "acceptedApplication": "6a16a5a4993e0349e0926366",
+        "title": "Anime character commission",
+        "description": "Voluptatem talis sponte cursim color torqueo aveho antea timidus quia. Facilis summa terebro magnam utroque crapula. Aro cotidie vehemens.",
+        "category": "Portrait",
+        "budget": {
+          "min": 1329,
+          "max": 5768,
+          "currency": "INR"
+        },
+        "deadline": "2026-08-05T14:15:16.719Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/786302ce-3200-499f-85f6-0fb8de928178/800/600"
+        ],
+        "status": "Pending",
+        "createdAt": "2026-05-27T08:04:52.104Z",
+        "updatedAt": "2026-05-27T08:04:52.106Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092636a",
+        "creator": "6a16a5a3993e0349e09262be",
+        "acceptedArtist": "6a16a5a3993e0349e09262c4",
+        "acceptedApplication": "6a16a5a4993e0349e092636b",
+        "title": "Book cover illustration",
+        "description": "Cito artificiose crur vinco aperio vinco ex. Abundans triduana argumentum vehemens ager surculus viscus voveo. At demoror curvo vestigium curvo abutor tum.",
+        "category": "Digital Art",
+        "budget": {
+          "min": 1012,
+          "max": 9750,
+          "currency": "INR"
+        },
+        "deadline": "2026-06-05T16:51:53.064Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/5ed23cca-cae8-4772-86ad-84c6781b99fd/800/600"
+        ],
+        "status": "Pending",
+        "createdAt": "2026-05-27T08:04:52.107Z",
+        "updatedAt": "2026-05-27T08:04:52.108Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092636f",
+        "creator": "6a16a5a3993e0349e09262bc",
+        "acceptedArtist": "6a16a5a3993e0349e09262c2",
+        "acceptedApplication": "6a16a5a4993e0349e0926370",
+        "title": "Portrait painting",
+        "description": "Varius maiores vacuus autem constans adhuc amplexus arbor. Depromo derelinquo tum tempore copiose viriliter. Vesco ventus vobis vigilo abstergo explicabo vespillo.",
+        "category": "Comics",
+        "budget": {
+          "min": 847,
+          "max": 7923,
+          "currency": "INR"
+        },
+        "deadline": "2026-06-02T14:03:42.382Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/b890f5bf-89cd-40de-8da6-07ef2bccb45a/800/600"
+        ],
+        "status": "Done",
+        "createdAt": "2026-05-27T08:04:52.110Z",
+        "updatedAt": "2026-05-27T08:04:52.111Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926375",
+        "creator": "6a16a5a3993e0349e09262c0",
+        "acceptedArtist": null,
+        "acceptedApplication": null,
+        "title": "Portrait painting",
+        "description": "Pecus saepe tamdiu tamdiu alii magni. Eos aliqua abundans cognomen atrocitas repellendus paens. Voluptate trepide pecco attero vix amplitudo.",
+        "category": "Portrait",
+        "budget": {
+          "min": 1168,
+          "max": 8110,
+          "currency": "INR"
+        },
+        "deadline": "2026-07-19T10:41:34.594Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/8f5232b5-4c7c-4f95-a9f8-d5c3e45c8fcf/800/600"
+        ],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.114Z",
+        "updatedAt": "2026-05-27T08:04:52.114Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926376",
+        "creator": "6a16a5a3993e0349e09262c4",
+        "acceptedArtist": null,
+        "acceptedApplication": null,
+        "title": "UI concept art",
+        "description": "Cultellus abundans cupio amita. Desidero suffoco solum ultra traho arcus tergeo. Conduco necessitatibus curriculum denuncio eius defaeco cura vicinus.",
+        "category": "Comics",
+        "budget": {
+          "min": 1621,
+          "max": 3365,
+          "currency": "INR"
+        },
+        "deadline": "2026-12-19T10:50:20.104Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/149ff1f9-2ad6-44c6-a1a3-b837a54582b2/800/600"
+        ],
+        "status": "Open",
+        "createdAt": "2026-05-27T08:04:52.115Z",
+        "updatedAt": "2026-05-27T08:04:52.115Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926377",
+        "creator": "6a16a5a3993e0349e09262be",
+        "acceptedArtist": "6a16a5a3993e0349e09262bf",
+        "acceptedApplication": "6a16a5a4993e0349e0926378",
+        "title": "Book cover illustration",
+        "description": "Ipsam carcer pecus. Virgo cado adiuvo desino argentum statim maiores eveniet undique. Decerno non corporis vitae dapifer certe curiositas beneficium crux.",
+        "category": "Portrait",
+        "budget": {
+          "min": 1154,
+          "max": 2183,
+          "currency": "INR"
+        },
+        "deadline": "2026-09-02T00:18:56.603Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/0e117263-0235-48c5-8f71-577c855ccfa7/800/600"
+        ],
+        "status": "Done",
+        "createdAt": "2026-05-27T08:04:52.116Z",
+        "updatedAt": "2026-05-27T08:04:52.117Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092637d",
+        "creator": "6a16a5a3993e0349e09262c4",
+        "acceptedArtist": "6a16a5a3993e0349e09262bc",
+        "acceptedApplication": "6a16a5a4993e0349e092637e",
+        "title": "UI concept art",
+        "description": "Recusandae uter sumo cenaculum cruciamentum inventore. Modi tutis capto crastinus cenaculum combibo appositus ascisco vilis. Adsum vomito desidero adulatio utilis.",
+        "category": "Logo Design",
+        "budget": {
+          "min": 1123,
+          "max": 7258,
+          "currency": "INR"
+        },
+        "deadline": "2026-10-08T03:56:07.964Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/2ceba8b0-f0f4-4a66-bee3-7af13affa1a0/800/600"
+        ],
+        "status": "Done",
+        "createdAt": "2026-05-27T08:04:52.120Z",
+        "updatedAt": "2026-05-27T08:04:52.121Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926383",
+        "creator": "6a16a5a3993e0349e09262bc",
+        "acceptedArtist": "6a16a5a3993e0349e09262c2",
+        "acceptedApplication": "6a16a5a4993e0349e0926384",
+        "title": "UI concept art",
+        "description": "Theatrum venio veritatis. Stabilis suscipio sponte circumvenio caput vinculum. Calco blanditiis amplus territo porro consectetur fugiat inventore aufero.",
+        "category": "Anime Art",
+        "budget": {
+          "min": 1046,
+          "max": 8369,
+          "currency": "INR"
+        },
+        "deadline": "2027-01-01T16:29:56.085Z",
+        "referenceImages": [
+          "https://picsum.photos/seed/9358ffe7-da20-479c-bc9e-daa500ed9d8c/800/600"
+        ],
+        "status": "Done",
+        "createdAt": "2026-05-27T08:04:52.123Z",
+        "updatedAt": "2026-05-27T08:04:52.124Z",
+        "__v": 0
+      }
+    ],
+    "orders": [
+      {
+        "_id": "6a300638c969ec266a785896",
+        "buyer": "6a300638c969ec266a785892",
+        "products": [
+          {
+            "product": "6a300638c969ec266a785893",
+            "quantity": 1,
+            "priceAtPurchase": 120,
+            "_id": "6a300638c969ec266a785897"
+          },
+          {
+            "product": "6a300638c969ec266a785894",
+            "quantity": 2,
+            "priceAtPurchase": 45,
+            "_id": "6a300638c969ec266a785898"
+          }
+        ],
+        "totalAmount": 210,
+        "status": "processing",
+        "shippingAddress": {
+          "street": "101 Art Gallery Way",
+          "city": "Metropolis",
+          "state": "NY",
+          "zipCode": "10001",
+          "country": "USA"
+        },
+        "paymentStatus": "paid",
+        "createdAt": "2026-06-15T14:03:36.487Z",
+        "updatedAt": "2026-06-15T14:03:36.487Z",
+        "__v": 0
+      }
+    ],
+    "products": [
+      {
+        "_id": "6a300638c969ec266a785893",
+        "title": "Starry Night Canvas",
+        "description": "Stunning museum-grade oil canvas reproduction of Vincent van Gogh's masterpiece.",
+        "price": 120,
+        "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5",
+        "category": "painting",
+        "stock": 4,
+        "tags": [
+          "classic",
+          "canvas",
+          "oil",
+          "masterpiece"
+        ],
+        "artist": "6a300638c969ec266a785891",
+        "isAvailable": true,
+        "createdAt": "2026-06-15T14:03:36.470Z",
+        "updatedAt": "2026-06-15T14:03:36.475Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a300638c969ec266a785894",
+        "title": "Sunflowers Sketch",
+        "description": "Hand-drawn study of sunflowers, charcoal on thick parchment paper.",
+        "price": 45,
+        "imageUrl": "https://images.unsplash.com/photo-1579783928621-7a13d66a6211",
+        "category": "sketch",
+        "stock": 8,
+        "tags": [
+          "sketch",
+          "charcoal",
+          "sunflower",
+          "study"
+        ],
+        "artist": "6a300638c969ec266a785891",
+        "isAvailable": true,
+        "createdAt": "2026-06-15T14:03:36.471Z",
+        "updatedAt": "2026-06-15T14:03:36.483Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a300638c969ec266a785895",
+        "title": "Digital Aurora NFT",
+        "description": "Vibrant, high-resolution original digital rendering depicting the neon northern lights.",
+        "price": 75,
+        "imageUrl": "https://images.unsplash.com/photo-1541701494587-cb58502866ab",
+        "category": "digital",
+        "stock": 25,
+        "tags": [
+          "digital",
+          "aurora",
+          "modern",
+          "nft"
+        ],
+        "artist": "6a300638c969ec266a785891",
+        "isAvailable": true,
+        "createdAt": "2026-06-15T14:03:36.473Z",
+        "updatedAt": "2026-06-15T14:03:36.473Z",
+        "__v": 0
+      }
+    ],
+    "verificationrequests": [],
+    "admins": [
+      {
+        "_id": "6a300638c969ec266a785890",
+        "user": "6a300638c969ec266a78588f",
+        "securityLevel": "super",
+        "departments": [
+          "users",
+          "content",
+          "billing",
+          "marketplace"
+        ],
+        "permissions": [
+          "delete_artwork",
+          "delete_user",
+          "review_reports",
+          "update_orders"
+        ],
+        "isActive": true,
+        "createdAt": "2026-06-15T14:03:36.465Z",
+        "updatedAt": "2026-06-15T14:03:36.465Z",
+        "__v": 0
+      }
+    ],
+    "comments": [
+      {
+        "_id": "6a16a5a3993e0349e09262ff",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262cd",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:51.999Z",
+        "updatedAt": "2026-05-27T08:04:51.999Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926300",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262cd",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.001Z",
+        "updatedAt": "2026-05-27T08:04:52.001Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926301",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262ce",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.004Z",
+        "updatedAt": "2026-05-27T08:04:52.004Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926302",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262cf",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.007Z",
+        "updatedAt": "2026-05-27T08:04:52.007Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926303",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262cf",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.007Z",
+        "updatedAt": "2026-05-27T08:04:52.007Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926304",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262cf",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.008Z",
+        "updatedAt": "2026-05-27T08:04:52.008Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926305",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262d0",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.009Z",
+        "updatedAt": "2026-05-27T08:04:52.009Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926306",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262d0",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.010Z",
+        "updatedAt": "2026-05-27T08:04:52.010Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926307",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262d0",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.011Z",
+        "updatedAt": "2026-05-27T08:04:52.011Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926308",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d0",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.012Z",
+        "updatedAt": "2026-05-27T08:04:52.012Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926309",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d2",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.015Z",
+        "updatedAt": "2026-05-27T08:04:52.015Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630a",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d2",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.016Z",
+        "updatedAt": "2026-05-27T08:04:52.016Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630b",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d3",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.018Z",
+        "updatedAt": "2026-05-27T08:04:52.018Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630c",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262d3",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.019Z",
+        "updatedAt": "2026-05-27T08:04:52.019Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630d",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d3",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.019Z",
+        "updatedAt": "2026-05-27T08:04:52.019Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630e",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262d4",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.022Z",
+        "updatedAt": "2026-05-27T08:04:52.022Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092630f",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d4",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.022Z",
+        "updatedAt": "2026-05-27T08:04:52.022Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926310",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262d4",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.023Z",
+        "updatedAt": "2026-05-27T08:04:52.023Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926311",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d5",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.024Z",
+        "updatedAt": "2026-05-27T08:04:52.024Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926312",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262d5",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.025Z",
+        "updatedAt": "2026-05-27T08:04:52.025Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926313",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d6",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.026Z",
+        "updatedAt": "2026-05-27T08:04:52.026Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926314",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d6",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.026Z",
+        "updatedAt": "2026-05-27T08:04:52.026Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926315",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d7",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.027Z",
+        "updatedAt": "2026-05-27T08:04:52.027Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926316",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d7",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.028Z",
+        "updatedAt": "2026-05-27T08:04:52.028Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926317",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262d7",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.029Z",
+        "updatedAt": "2026-05-27T08:04:52.029Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926318",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262d9",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.031Z",
+        "updatedAt": "2026-05-27T08:04:52.031Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926319",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262d9",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.032Z",
+        "updatedAt": "2026-05-27T08:04:52.032Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631a",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262db",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.034Z",
+        "updatedAt": "2026-05-27T08:04:52.034Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631b",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262dd",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.035Z",
+        "updatedAt": "2026-05-27T08:04:52.035Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631c",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262de",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.037Z",
+        "updatedAt": "2026-05-27T08:04:52.037Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631d",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262de",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.037Z",
+        "updatedAt": "2026-05-27T08:04:52.037Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631e",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262df",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.038Z",
+        "updatedAt": "2026-05-27T08:04:52.038Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092631f",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262df",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.038Z",
+        "updatedAt": "2026-05-27T08:04:52.038Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926320",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262df",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.039Z",
+        "updatedAt": "2026-05-27T08:04:52.039Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926321",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262e0",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.040Z",
+        "updatedAt": "2026-05-27T08:04:52.040Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926322",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262e0",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.041Z",
+        "updatedAt": "2026-05-27T08:04:52.041Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926323",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262e0",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.041Z",
+        "updatedAt": "2026-05-27T08:04:52.041Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926324",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262e1",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.042Z",
+        "updatedAt": "2026-05-27T08:04:52.042Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926325",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262e1",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.043Z",
+        "updatedAt": "2026-05-27T08:04:52.043Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926326",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262e1",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.043Z",
+        "updatedAt": "2026-05-27T08:04:52.043Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926327",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262e1",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.043Z",
+        "updatedAt": "2026-05-27T08:04:52.043Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926328",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262e2",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.045Z",
+        "updatedAt": "2026-05-27T08:04:52.045Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926329",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262e2",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.046Z",
+        "updatedAt": "2026-05-27T08:04:52.046Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632a",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262e2",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.047Z",
+        "updatedAt": "2026-05-27T08:04:52.047Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632b",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262e2",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.047Z",
+        "updatedAt": "2026-05-27T08:04:52.047Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632c",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262e3",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.048Z",
+        "updatedAt": "2026-05-27T08:04:52.048Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632d",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262e4",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.049Z",
+        "updatedAt": "2026-05-27T08:04:52.049Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632e",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262e5",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.051Z",
+        "updatedAt": "2026-05-27T08:04:52.051Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092632f",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262e5",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.051Z",
+        "updatedAt": "2026-05-27T08:04:52.051Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926330",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262e5",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.052Z",
+        "updatedAt": "2026-05-27T08:04:52.052Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926331",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262e9",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.054Z",
+        "updatedAt": "2026-05-27T08:04:52.054Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926332",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262ea",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.055Z",
+        "updatedAt": "2026-05-27T08:04:52.055Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926333",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262ec",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.057Z",
+        "updatedAt": "2026-05-27T08:04:52.057Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926334",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262ec",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.058Z",
+        "updatedAt": "2026-05-27T08:04:52.058Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926335",
+        "author": "6a16a5a3993e0349e09262be",
+        "artwork": "6a16a5a3993e0349e09262ec",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.059Z",
+        "updatedAt": "2026-05-27T08:04:52.059Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926336",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262ec",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.059Z",
+        "updatedAt": "2026-05-27T08:04:52.059Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926337",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262ed",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.060Z",
+        "updatedAt": "2026-05-27T08:04:52.060Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926338",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262ed",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.061Z",
+        "updatedAt": "2026-05-27T08:04:52.061Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926339",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262ed",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.062Z",
+        "updatedAt": "2026-05-27T08:04:52.062Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633a",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262ee",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.063Z",
+        "updatedAt": "2026-05-27T08:04:52.063Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633b",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262ee",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.064Z",
+        "updatedAt": "2026-05-27T08:04:52.064Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633c",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262ee",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.064Z",
+        "updatedAt": "2026-05-27T08:04:52.064Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633d",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262ef",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.065Z",
+        "updatedAt": "2026-05-27T08:04:52.065Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633e",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262ef",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.066Z",
+        "updatedAt": "2026-05-27T08:04:52.066Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092633f",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262ef",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.066Z",
+        "updatedAt": "2026-05-27T08:04:52.066Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926340",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262ef",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.067Z",
+        "updatedAt": "2026-05-27T08:04:52.067Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926341",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262f0",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.068Z",
+        "updatedAt": "2026-05-27T08:04:52.068Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926342",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262f0",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.068Z",
+        "updatedAt": "2026-05-27T08:04:52.068Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926343",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262f0",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.069Z",
+        "updatedAt": "2026-05-27T08:04:52.069Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926344",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262f1",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.071Z",
+        "updatedAt": "2026-05-27T08:04:52.071Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926345",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262f2",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.072Z",
+        "updatedAt": "2026-05-27T08:04:52.072Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926346",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262f3",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.073Z",
+        "updatedAt": "2026-05-27T08:04:52.073Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926347",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262f5",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.075Z",
+        "updatedAt": "2026-05-27T08:04:52.075Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926348",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262f5",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.076Z",
+        "updatedAt": "2026-05-27T08:04:52.076Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926349",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262f6",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.077Z",
+        "updatedAt": "2026-05-27T08:04:52.077Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634a",
+        "author": "6a16a5a3993e0349e09262c3",
+        "artwork": "6a16a5a3993e0349e09262f6",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.078Z",
+        "updatedAt": "2026-05-27T08:04:52.078Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634b",
+        "author": "6a16a5a3993e0349e09262bc",
+        "artwork": "6a16a5a3993e0349e09262f7",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.079Z",
+        "updatedAt": "2026-05-27T08:04:52.079Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634c",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262f7",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.080Z",
+        "updatedAt": "2026-05-27T08:04:52.080Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634d",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262f7",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.080Z",
+        "updatedAt": "2026-05-27T08:04:52.080Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634e",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262f9",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.082Z",
+        "updatedAt": "2026-05-27T08:04:52.082Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092634f",
+        "author": "6a16a5a3993e0349e09262c2",
+        "artwork": "6a16a5a3993e0349e09262f9",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.082Z",
+        "updatedAt": "2026-05-27T08:04:52.082Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926350",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262fa",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.083Z",
+        "updatedAt": "2026-05-27T08:04:52.083Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926351",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262fb",
+        "content": "Great color palette.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.085Z",
+        "updatedAt": "2026-05-27T08:04:52.085Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926352",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262fb",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.085Z",
+        "updatedAt": "2026-05-27T08:04:52.085Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926353",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262fb",
+        "content": "Love the cyberpunk vibe.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.086Z",
+        "updatedAt": "2026-05-27T08:04:52.086Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926354",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262fd",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.088Z",
+        "updatedAt": "2026-05-27T08:04:52.088Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926355",
+        "author": "6a16a5a3993e0349e09262c1",
+        "artwork": "6a16a5a3993e0349e09262fd",
+        "content": "Can you share brush settings?",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.088Z",
+        "updatedAt": "2026-05-27T08:04:52.088Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926356",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262fd",
+        "content": "Your anatomy improved a lot.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.089Z",
+        "updatedAt": "2026-05-27T08:04:52.089Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926357",
+        "author": "6a16a5a3993e0349e09262c0",
+        "artwork": "6a16a5a3993e0349e09262fe",
+        "content": "I wish I could draw like this.",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.090Z",
+        "updatedAt": "2026-05-27T08:04:52.090Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926358",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262fe",
+        "content": "This is absolutely stunning!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.091Z",
+        "updatedAt": "2026-05-27T08:04:52.091Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926359",
+        "author": "6a16a5a3993e0349e09262bf",
+        "artwork": "6a16a5a3993e0349e09262fe",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.091Z",
+        "updatedAt": "2026-05-27T08:04:52.091Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092635a",
+        "author": "6a16a5a3993e0349e09262c4",
+        "artwork": "6a16a5a3993e0349e09262fe",
+        "content": "Amazing lighting work!",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-05-27T08:04:52.092Z",
+        "updatedAt": "2026-05-27T08:04:52.092Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a30166e1278fadfd3515f15",
+        "author": "6a300638c969ec266a785892",
+        "artwork": "6a16a5a3993e0349e09262e0",
+        "content": "Nice",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-06-15T15:12:46.279Z",
+        "updatedAt": "2026-06-15T15:12:46.279Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a33fe30ee249fce46ef9394",
+        "author": "6a300638c969ec266a785892",
+        "artwork": "6a300b6bf1aef4c47e2b7efb",
+        "content": "nice",
+        "likes": [],
+        "parentComment": null,
+        "createdAt": "2026-06-18T14:18:24.338Z",
+        "updatedAt": "2026-06-18T14:18:24.338Z",
+        "__v": 0
+      }
+    ],
+    "chats": [
+      {
+        "_id": "6a16a5a4993e0349e092635d",
+        "request": "6a16a5a4993e0349e092635b",
+        "application": "6a16a5a4993e0349e092635c",
+        "requester": "6a16a5a3993e0349e09262c0",
+        "artist": "6a16a5a3993e0349e09262c1",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262c0",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092635e",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.099Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262c1",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092635f",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.099Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.100Z",
+        "updatedAt": "2026-05-27T08:04:52.100Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926362",
+        "request": "6a16a5a4993e0349e0926360",
+        "application": "6a16a5a4993e0349e0926361",
+        "requester": "6a16a5a3993e0349e09262c4",
+        "artist": "6a16a5a3993e0349e09262c3",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262c4",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926363",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.103Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262c3",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926364",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.103Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.104Z",
+        "updatedAt": "2026-05-27T08:04:52.104Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926367",
+        "request": "6a16a5a4993e0349e0926365",
+        "application": "6a16a5a4993e0349e0926366",
+        "requester": "6a16a5a3993e0349e09262bc",
+        "artist": "6a16a5a3993e0349e09262be",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262bc",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926368",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.106Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262be",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926369",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.106Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.106Z",
+        "updatedAt": "2026-05-27T08:04:52.106Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092636c",
+        "request": "6a16a5a4993e0349e092636a",
+        "application": "6a16a5a4993e0349e092636b",
+        "requester": "6a16a5a3993e0349e09262be",
+        "artist": "6a16a5a3993e0349e09262c4",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262be",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092636d",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.109Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262c4",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092636e",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.109Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.109Z",
+        "updatedAt": "2026-05-27T08:04:52.109Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926372",
+        "request": "6a16a5a4993e0349e092636f",
+        "application": "6a16a5a4993e0349e0926370",
+        "requester": "6a16a5a3993e0349e09262bc",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262bc",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926373",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.113Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262c2",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926374",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.113Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.113Z",
+        "updatedAt": "2026-05-27T08:04:52.113Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e092637a",
+        "request": "6a16a5a4993e0349e0926377",
+        "application": "6a16a5a4993e0349e0926378",
+        "requester": "6a16a5a3993e0349e09262be",
+        "artist": "6a16a5a3993e0349e09262bf",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262be",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092637b",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.118Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262bf",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e092637c",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.119Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.119Z",
+        "updatedAt": "2026-05-27T08:04:52.119Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926380",
+        "request": "6a16a5a4993e0349e092637d",
+        "application": "6a16a5a4993e0349e092637e",
+        "requester": "6a16a5a3993e0349e09262c4",
+        "artist": "6a16a5a3993e0349e09262bc",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262c4",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926381",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.122Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262bc",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926382",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.122Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.122Z",
+        "updatedAt": "2026-05-27T08:04:52.122Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e0926386",
+        "request": "6a16a5a4993e0349e0926383",
+        "application": "6a16a5a4993e0349e0926384",
+        "requester": "6a16a5a3993e0349e09262bc",
+        "artist": "6a16a5a3993e0349e09262c2",
+        "messages": [
+          {
+            "sender": "6a16a5a3993e0349e09262bc",
+            "message": "Hello! Are you available to start?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926387",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.125Z"
+          },
+          {
+            "sender": "6a16a5a3993e0349e09262c2",
+            "message": "Yes, I can start today. What are the specific requirements?",
+            "kind": "message",
+            "_id": "6a16a5a4993e0349e0926388",
+            "attachments": [],
+            "createdAt": "2026-05-27T08:04:52.125Z"
+          }
+        ],
+        "createdAt": "2026-05-27T08:04:52.125Z",
+        "updatedAt": "2026-05-27T08:04:52.125Z",
+        "__v": 0
+      }
+    ],
+    "competitions": [
+      {
+        "_id": "6a16a5a4993e0349e0926390",
+        "title": "Global Cyberpunk Art Contest 2026",
+        "description": "Create your best cyberpunk city landscape and win prizes up to 10,000 INR!",
+        "coverImage": "https://picsum.photos/seed/2f35c081-0afd-427b-9b56-3bf25ced9e23/800/600",
+        "category": "digital",
+        "organizer": "6a16a5a3993e0349e09262bc",
+        "deadline": "2027-02-19T17:09:07.262Z",
+        "prize": "10,000 INR + Pro Mentorship",
+        "participants": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c2",
+          "6a300638c969ec266a785892",
+          "6a7f38fa69faff7232067aab"
+        ],
+        "submissions": [
+          {
+            "artist": "6a16a5a3993e0349e09262c1",
+            "imageUrl": "https://picsum.photos/seed/8bc462c0-9d2f-4143-8caa-95581dd0d2c2/800/600",
+            "_id": "6a16a5a4993e0349e0926391",
+            "submittedAt": "2026-05-27T08:04:52.131Z"
+          },
+          {
+            "artist": "6a16a5a3993e0349e09262c2",
+            "imageUrl": "https://picsum.photos/seed/77ef1e22-df3f-46b1-ad8b-7a3673c3870b/800/600",
+            "_id": "6a16a5a4993e0349e0926392",
+            "submittedAt": "2026-05-27T08:04:52.132Z"
+          }
+        ],
+        "isActive": true,
+        "status": "approved",
+        "winners": [],
+        "createdAt": "2026-05-27T08:04:52.132Z",
+        "updatedAt": "2026-08-14T16:05:28.874Z",
+        "__v": 2
+      }
+    ],
+    "communities": [
+      {
+        "_id": "6a16a5a3993e0349e09262c8",
+        "name": "Anime World",
+        "description": "Utique cunae traho voluptates suppono deporto cotidie deprimo. Repudiandae calculus absque adfero quo cunctatio dolor. Sumo vociferor tactus cotidie suspendo subvenio quam.",
+        "category": "digital",
+        "coverImage": "https://picsum.photos/seed/4c1407a1-3107-4289-abea-c44da39f541e/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Anime World",
+        "creator": "6a16a5a3993e0349e09262c4",
+        "members": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bf",
+          "6a300638c969ec266a785892",
+          "6a7f38fa69faff7232067aab"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-08-15T07:41:17.479Z",
+        "__v": 8
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c9",
+        "name": "Digital Painting",
+        "description": "Claudeo velociter vomica. Unde curiositas aestus beneficium amet quasi succurro. Sustineo depono supellex dapifer delinquo via.",
+        "category": "digital",
+        "coverImage": "https://picsum.photos/seed/d5688c49-195c-4574-bd42-4298c8fd6f07/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Digital Painting",
+        "creator": "6a16a5a3993e0349e09262c0",
+        "members": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c0",
+          "6a7f38fa69faff7232067aab"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-08-15T07:42:11.121Z",
+        "__v": 7
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262c7",
+        "name": "Classic Art",
+        "description": "Strenuus arca blanditiis incidunt neque tubineus cenaculum praesentium suggero conatus. Videlicet asper thymbra cedo audentia terminatio cupressus crux. Apto crastinus veritas vivo adicio molestias aiunt thesis canto tergum.",
+        "category": "painting",
+        "coverImage": "https://picsum.photos/seed/976040b4-154a-4456-8fec-498d9ad4fb6c/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Classic Art",
+        "creator": "6a16a5a3993e0349e09262c3",
+        "members": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-08-14T16:02:11.061Z",
+        "__v": 2
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262cb",
+        "name": "Sketch Masters",
+        "description": "Vomica aureus caput coruscus theca defungo crebro. Avaritia capio defluo substantia canis aduro adiuvo capio cubicularis aveho. Ultio amicitia allatus suggero veritatis ambulo theca decet tersus.",
+        "category": "sketch",
+        "coverImage": "https://picsum.photos/seed/c2332e1d-3610-4871-aae8-c98dcb22cea0/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sketch Masters",
+        "creator": "6a16a5a3993e0349e09262c2",
+        "members": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-05-27T08:04:51.954Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262cc",
+        "name": "Manga Universe",
+        "description": "Verus tendo vomica. Conicio ventosus curso verbera baiulus vesco quaerat quo admoneo delibero. Cerno benigne inflammatio iure clibanus stillicidium tergo repudiandae deporto tremo.",
+        "category": "comic",
+        "coverImage": "https://picsum.photos/seed/afe38788-61f3-4ef7-a039-266ecf0ea729/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Manga Universe",
+        "creator": "6a16a5a3993e0349e09262bf",
+        "members": [
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262bf"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-05-27T08:04:51.954Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ca",
+        "name": "Cyberpunk UI",
+        "description": "Suscipit aiunt vinculum. Urbanus confugo saepe cuppedia ut suscipit uter. Patruus vaco iste quaerat caveo aequitas.",
+        "category": "other",
+        "coverImage": "https://picsum.photos/seed/e652fa4b-8a30-4507-a355-5dede22eb2f4/800/600",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Cyberpunk UI",
+        "creator": "6a16a5a3993e0349e09262c4",
+        "members": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "moderators": [
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "posts": [],
+        "isPrivate": false,
+        "joinRequests": [],
+        "createdAt": "2026-05-27T08:04:51.954Z",
+        "updatedAt": "2026-05-27T08:04:51.954Z",
+        "__v": 0
+      }
+    ],
+    "communitymessages": [
+      {
+        "_id": "6a16a5a4993e0349e09263a5",
+        "community": "6a16a5a3993e0349e09262c7",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Carbo antea laboriosam nemo curvo aurum accusantium voluptatibus.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.143Z",
+        "updatedAt": "2026-05-27T08:04:52.143Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a6",
+        "community": "6a16a5a3993e0349e09262c7",
+        "sender": "6a16a5a3993e0349e09262c1",
+        "message": "Aequitas vomito curatio autus degusto cursim amitto demens.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.143Z",
+        "updatedAt": "2026-05-27T08:04:52.143Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a7",
+        "community": "6a16a5a3993e0349e09262c7",
+        "sender": "6a16a5a3993e0349e09262c1",
+        "message": "Aeternus adamo comminor victoria tamquam cetera.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.144Z",
+        "updatedAt": "2026-05-27T08:04:52.144Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a8",
+        "community": "6a16a5a3993e0349e09262c7",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Corpus addo apparatus vespillo adimpleo volo ambulo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.145Z",
+        "updatedAt": "2026-05-27T08:04:52.145Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263a9",
+        "community": "6a16a5a3993e0349e09262c7",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Crebro corona timor illo aiunt aveho ager cetera abeo bestia.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.146Z",
+        "updatedAt": "2026-05-27T08:04:52.146Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263aa",
+        "community": "6a16a5a3993e0349e09262c8",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Verto curto vulgaris tubineus cursim.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.147Z",
+        "updatedAt": "2026-05-27T08:04:52.147Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263ab",
+        "community": "6a16a5a3993e0349e09262c8",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "message": "Utpote ars bellicus tum.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.148Z",
+        "updatedAt": "2026-05-27T08:04:52.148Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263ac",
+        "community": "6a16a5a3993e0349e09262c8",
+        "sender": "6a16a5a3993e0349e09262c4",
+        "message": "Adsum reprehenderit uterque ciminatio venia vitiosus tripudio amicitia velum desolo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.152Z",
+        "updatedAt": "2026-05-27T08:04:52.152Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263ad",
+        "community": "6a16a5a3993e0349e09262c8",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Desparatus utroque astrum arto curvo aureus defungo anser volo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.153Z",
+        "updatedAt": "2026-05-27T08:04:52.153Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263ae",
+        "community": "6a16a5a3993e0349e09262c8",
+        "sender": "6a16a5a3993e0349e09262bf",
+        "message": "Viduo cubicularis terga via careo doloribus suus carus vos.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.154Z",
+        "updatedAt": "2026-05-27T08:04:52.154Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263af",
+        "community": "6a16a5a3993e0349e09262c9",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Baiulus charisma substantia sol arto comburo absorbeo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.154Z",
+        "updatedAt": "2026-05-27T08:04:52.154Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b0",
+        "community": "6a16a5a3993e0349e09262c9",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Depopulo aiunt et cauda earum.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.155Z",
+        "updatedAt": "2026-05-27T08:04:52.155Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b1",
+        "community": "6a16a5a3993e0349e09262c9",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Canto id amiculum cometes adulatio video aegre concido sophismata.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.155Z",
+        "updatedAt": "2026-05-27T08:04:52.155Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b2",
+        "community": "6a16a5a3993e0349e09262c9",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Animus aeneus illo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.156Z",
+        "updatedAt": "2026-05-27T08:04:52.156Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b3",
+        "community": "6a16a5a3993e0349e09262c9",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Ustulo ab alienus.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.156Z",
+        "updatedAt": "2026-05-27T08:04:52.156Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b4",
+        "community": "6a16a5a3993e0349e09262ca",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Ascisco via chirographum.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.157Z",
+        "updatedAt": "2026-05-27T08:04:52.157Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b5",
+        "community": "6a16a5a3993e0349e09262ca",
+        "sender": "6a16a5a3993e0349e09262c4",
+        "message": "Adiuvo quos artificiose sumo ubi.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.157Z",
+        "updatedAt": "2026-05-27T08:04:52.157Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b6",
+        "community": "6a16a5a3993e0349e09262ca",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Vivo similique recusandae demo bibo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.158Z",
+        "updatedAt": "2026-05-27T08:04:52.158Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b7",
+        "community": "6a16a5a3993e0349e09262ca",
+        "sender": "6a16a5a3993e0349e09262c1",
+        "message": "Adamo aspernatur commodi.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.159Z",
+        "updatedAt": "2026-05-27T08:04:52.159Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b8",
+        "community": "6a16a5a3993e0349e09262ca",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Charisma accusamus demonstro tres.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.159Z",
+        "updatedAt": "2026-05-27T08:04:52.159Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263b9",
+        "community": "6a16a5a3993e0349e09262cb",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Unus vicissitudo laboriosam.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.160Z",
+        "updatedAt": "2026-05-27T08:04:52.160Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263ba",
+        "community": "6a16a5a3993e0349e09262cb",
+        "sender": "6a16a5a3993e0349e09262be",
+        "message": "Repudiandae urbanus aranea id celo deprecator communis itaque suffragium suffragium.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.160Z",
+        "updatedAt": "2026-05-27T08:04:52.160Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263bb",
+        "community": "6a16a5a3993e0349e09262cb",
+        "sender": "6a16a5a3993e0349e09262be",
+        "message": "Aperte aureus approbo carus blanditiis autem artificiose apostolus.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.161Z",
+        "updatedAt": "2026-05-27T08:04:52.161Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263bc",
+        "community": "6a16a5a3993e0349e09262cb",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Dedico minima strues utpote assumenda surgo conservo.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.161Z",
+        "updatedAt": "2026-05-27T08:04:52.161Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263bd",
+        "community": "6a16a5a3993e0349e09262cb",
+        "sender": "6a16a5a3993e0349e09262c3",
+        "message": "Decor audentia nobis totus xiphias deprecator corporis.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.162Z",
+        "updatedAt": "2026-05-27T08:04:52.162Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263be",
+        "community": "6a16a5a3993e0349e09262cc",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Tepesco victoria consuasor tredecim aurum tego absorbeo patior.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.162Z",
+        "updatedAt": "2026-05-27T08:04:52.162Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263bf",
+        "community": "6a16a5a3993e0349e09262cc",
+        "sender": "6a16a5a3993e0349e09262c0",
+        "message": "Terminatio commodo solvo denuncio.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.163Z",
+        "updatedAt": "2026-05-27T08:04:52.163Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263c0",
+        "community": "6a16a5a3993e0349e09262cc",
+        "sender": "6a16a5a3993e0349e09262bc",
+        "message": "Agnitio uxor vestrum.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.163Z",
+        "updatedAt": "2026-05-27T08:04:52.163Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263c1",
+        "community": "6a16a5a3993e0349e09262cc",
+        "sender": "6a16a5a3993e0349e09262be",
+        "message": "Adicio recusandae avarus dedico adipiscor aurum.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.164Z",
+        "updatedAt": "2026-05-27T08:04:52.164Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a4993e0349e09263c2",
+        "community": "6a16a5a3993e0349e09262cc",
+        "sender": "6a16a5a3993e0349e09262be",
+        "message": "Templum cervus cruentus.",
+        "replyTo": {
+          "messageId": null,
+          "message": "",
+          "senderName": ""
+        },
+        "createdAt": "2026-05-27T08:04:52.164Z",
+        "updatedAt": "2026-05-27T08:04:52.164Z",
+        "__v": 0
+      }
+    ],
+    "marketplacechats": [],
+    "artworks": [
+      {
+        "_id": "6a16a5a3993e0349e09262cd",
+        "title": "cupressus victoria una",
+        "description": "Bladder crap, as if with a greedy other, I was so frightened that I brought a distinction. Desolation post is open.",
+        "imageUrl": "https://picsum.photos/seed/4cd36423-afc6-4788-985b-a043fae57092/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "realistic",
+          "anime",
+          "character design"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [
+          "6a16a5a3993e0349e09262ff",
+          "6a16a5a4993e0349e0926300"
+        ],
+        "views": 140,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.957Z",
+        "updatedAt": "2026-09-02T14:50:13.286Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ce",
+        "title": "articulus urbanus denique",
+        "description": "Vigorous management testifies to the reprimanding even bold praise caries life. The angel's signature force robbing the court crowd.",
+        "imageUrl": "https://picsum.photos/seed/c027a237-a953-448b-a2e1-8b8362d5d3f2/800/600",
+        "videoUrl": "",
+        "category": "sculpture",
+        "tags": [
+          "concept art",
+          "landscape",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c3",
+        "likes": [
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926301"
+        ],
+        "views": 180,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.958Z",
+        "updatedAt": "2026-09-02T14:50:13.885Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262cf",
+        "title": "deorsum abundans admiratio",
+        "description": "He is bound to the finder, and the accuser brings the accuser with the bitterness of his sins. I scorn the virgin angel's head for such charity.",
+        "imageUrl": "https://picsum.photos/seed/a7c09cd9-73c6-41c4-a715-8ba62f4b06dc/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "portrait",
+          "logo",
+          "manga"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [],
+        "comments": [
+          "6a16a5a4993e0349e0926302",
+          "6a16a5a4993e0349e0926303",
+          "6a16a5a4993e0349e0926304"
+        ],
+        "views": 690,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.958Z",
+        "updatedAt": "2026-09-02T14:50:14.202Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d0",
+        "title": "curia calamitas fugit",
+        "description": "I will give you a suitable closing cost. Water thin curved dark theme.",
+        "imageUrl": "https://picsum.photos/seed/393df797-751a-4b3c-9bc9-fb85e0650cc4/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "logo",
+          "landscape",
+          "ui/ux"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926305",
+          "6a16a5a4993e0349e0926306",
+          "6a16a5a4993e0349e0926307",
+          "6a16a5a4993e0349e0926308"
+        ],
+        "views": 720,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.959Z",
+        "updatedAt": "2026-09-02T14:50:14.828Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d1",
+        "title": "ultra caveo undique",
+        "description": "I cried out to the patient with pleasure. For the protection of Cernus is a wise patronage for you.",
+        "imageUrl": "https://picsum.photos/seed/44385610-5ad8-4f56-adcd-700d7eb0a4bb/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "manga",
+          "character design",
+          "portrait"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262bf"
+        ],
+        "comments": [],
+        "views": 640,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.960Z",
+        "updatedAt": "2026-09-02T14:50:15.597Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d2",
+        "title": "caput harum patior",
+        "description": "I corrupt the city of the star, I am gloriously fainting with the voluptuous pleasure of the sparrow. I frequently recognize the vulgarity of the idiosyncratic acquisition of the wise few.",
+        "imageUrl": "https://picsum.photos/seed/7e04032e-58c9-4a50-949b-fc9646452d88/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "ui/ux",
+          "realistic",
+          "anime"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926309",
+          "6a16a5a4993e0349e092630a"
+        ],
+        "views": 363,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.961Z",
+        "updatedAt": "2026-09-02T14:50:15.779Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d3",
+        "title": "volutabrum alias labore",
+        "description": "I am filled with madness, afflicted with such loneliness as the shadow of care and criticism. He vows to repulse the foreigner's suffrage;",
+        "imageUrl": "https://picsum.photos/seed/dac2c71c-f7c0-4bdc-88a1-2236eda91590/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "character design",
+          "landscape",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092630b",
+          "6a16a5a4993e0349e092630c",
+          "6a16a5a4993e0349e092630d"
+        ],
+        "views": 270,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.962Z",
+        "updatedAt": "2026-09-02T14:50:16.200Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d4",
+        "title": "sortitus thema verto",
+        "description": "I show a pile of piles of woolen clothes, and I force them to take care of me. The apostle of trouble, because the crowd chooses a handwritten note, of which the vicious then corrects.",
+        "imageUrl": "https://picsum.photos/seed/36ad15a2-0b41-4506-86b3-cbbc43b47f90/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "anime",
+          "logo",
+          "abstract"
+        ],
+        "artist": "6a16a5a3993e0349e09262c2",
+        "likes": [
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262bf"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092630e",
+          "6a16a5a4993e0349e092630f",
+          "6a16a5a4993e0349e0926310"
+        ],
+        "views": 536,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.963Z",
+        "updatedAt": "2026-09-02T14:50:16.726Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d5",
+        "title": "succedo vilitas cohors",
+        "description": "I decide to give it a nickname for other listeners to follow. Tabgo I vow to trample our country on the ramparts of the chapter of victory.",
+        "imageUrl": "https://picsum.photos/seed/769bec1a-6c6c-4a38-95bb-52c44c055fa6/800/600",
+        "videoUrl": "",
+        "category": "calligraphy",
+        "tags": [
+          "ui/ux",
+          "manga",
+          "landscape"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926311",
+          "6a16a5a4993e0349e0926312"
+        ],
+        "views": 730,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.964Z",
+        "updatedAt": "2026-09-02T14:50:17.508Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d6",
+        "title": "aliquam assentator solitudo",
+        "description": "Caritas runs away with the third kick. In some cases, the flight complainer is held and similar to the heat of the hair.",
+        "imageUrl": "https://picsum.photos/seed/96b59fcf-5cfb-4a26-97e5-cd7bcb8ef3b2/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "cyberpunk",
+          "ui/ux",
+          "character design"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262bf"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926313",
+          "6a16a5a4993e0349e0926314"
+        ],
+        "views": 466,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.965Z",
+        "updatedAt": "2026-09-02T14:50:18.368Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d7",
+        "title": "conduco ter derideo",
+        "description": "They say that I eat some sophistry. I fail their comets, otherwise weary triumph health sick maid.",
+        "imageUrl": "https://picsum.photos/seed/5e9af2a5-dc52-4ada-b62e-33886c3f25bb/800/600",
+        "videoUrl": "",
+        "category": "sculpture",
+        "tags": [
+          "landscape",
+          "manga",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926315",
+          "6a16a5a4993e0349e0926316",
+          "6a16a5a4993e0349e0926317"
+        ],
+        "views": 612,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.965Z",
+        "updatedAt": "2026-09-02T14:50:18.923Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d8",
+        "title": "amita strues aggredior",
+        "description": "However, I am used to opening the cupboard at the same time. Of which I tend the rougher, tenacious, high-heel, at least savagely.",
+        "imageUrl": "https://picsum.photos/seed/6d8eed94-9fb0-48c1-a6f7-3f37b323a6a4/800/600",
+        "videoUrl": "",
+        "category": "sculpture",
+        "tags": [
+          "ui/ux",
+          "realistic",
+          "cyberpunk"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [],
+        "comments": [],
+        "views": 115,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.966Z",
+        "updatedAt": "2026-09-02T14:50:19.671Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262d9",
+        "title": "brevis dolore solvo",
+        "description": "I move with friendship to let down the vicious sick of the cement chamber. I would like to take the next course.",
+        "imageUrl": "https://picsum.photos/seed/7aefb18c-2926-435c-9f6d-64b18c3604dd/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "character design",
+          "abstract",
+          "anime"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926318",
+          "6a16a5a4993e0349e0926319"
+        ],
+        "views": 42,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.967Z",
+        "updatedAt": "2026-09-02T14:50:20.113Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262da",
+        "title": "audax tui abutor",
+        "description": "Count Calamity and Contabesco. I then became tenacious and corrupted him.",
+        "imageUrl": "https://picsum.photos/seed/fcaa8a10-4ae3-4fce-8091-aa95323052b9/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "realistic",
+          "ui/ux",
+          "abstract"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "comments": [],
+        "views": 215,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.967Z",
+        "updatedAt": "2026-09-02T14:50:20.907Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262db",
+        "title": "decimus vigor sum",
+        "description": "Leg strength to carry the cookie against. I hope the author of the thesis does justice.",
+        "imageUrl": "https://picsum.photos/seed/c1951b55-8df1-421b-8a4e-8803f504313c/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "landscape",
+          "ui/ux",
+          "anime"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092631a"
+        ],
+        "views": 182,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.968Z",
+        "updatedAt": "2026-09-02T14:50:21.213Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262dc",
+        "title": "vigor adeptio odit",
+        "description": "In the evening, the ancient reprimanded the temple, I suffered. In the cradle I warm desire, the voice of no one, I spurn curiosity, then I fear singing.",
+        "imageUrl": "https://picsum.photos/seed/f9ab2d9f-53dd-41b2-b157-e6f606279c8f/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "ui/ux",
+          "cyberpunk",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262bf",
+        "likes": [],
+        "comments": [],
+        "views": 210,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.969Z",
+        "updatedAt": "2026-09-02T14:50:21.808Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262dd",
+        "title": "aestus crur earum",
+        "description": "But I am not bold enough to do so. He would like to admit that he is a keen settler.",
+        "imageUrl": "https://picsum.photos/seed/7b4a9d79-1efe-409d-9648-746600939efc/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "manga",
+          "landscape",
+          "cyberpunk"
+        ],
+        "artist": "6a16a5a3993e0349e09262be",
+        "likes": [
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092631b"
+        ],
+        "views": 270,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.970Z",
+        "updatedAt": "2026-09-02T14:50:22.291Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262de",
+        "title": "error cultellus succedo",
+        "description": "Being able to take the slowest. The architect was replaced by a blind acid guard.",
+        "imageUrl": "https://picsum.photos/seed/10dbee2b-1d55-4437-bbbf-c5b0076a86fb/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "cyberpunk",
+          "portrait",
+          "concept art"
+        ],
+        "artist": "6a16a5a3993e0349e09262c2",
+        "likes": [
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092631c",
+          "6a16a5a4993e0349e092631d"
+        ],
+        "views": 381,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.971Z",
+        "updatedAt": "2026-09-02T14:50:22.666Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262df",
+        "title": "cibo votum compono",
+        "description": "Repulses under failure. Not down the smallest benefit to the ex wind author.",
+        "imageUrl": "https://picsum.photos/seed/2b6d47e5-507c-4330-8ed7-cdc5dff2ddba/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "anime",
+          "logo",
+          "landscape"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092631e",
+          "6a16a5a4993e0349e092631f",
+          "6a16a5a4993e0349e0926320"
+        ],
+        "views": 751,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.972Z",
+        "updatedAt": "2026-09-02T14:50:23.908Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e0",
+        "title": "volo defaeco audio",
+        "description": "Defeat atrocity leg drill triumph predator charisma. I cut off the vote of the chest to assume the life of the live casino cuppedia.",
+        "imageUrl": "https://picsum.photos/seed/2fe880ab-1502-4505-8ad4-6060dae3f04d/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "manga",
+          "portrait",
+          "abstract"
+        ],
+        "artist": "6a16a5a3993e0349e09262be",
+        "likes": [
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926321",
+          "6a16a5a4993e0349e0926322",
+          "6a16a5a4993e0349e0926323",
+          "6a30166e1278fadfd3515f15"
+        ],
+        "views": 881,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.972Z",
+        "updatedAt": "2026-09-02T14:50:24.341Z",
+        "__v": 2
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e1",
+        "title": "occaecati aut constans",
+        "description": "I laugh at the stable water. I put the blame on the finder and I went across to accommodate the cement.",
+        "imageUrl": "https://picsum.photos/seed/08133be6-1f77-49d8-b59d-51a3790129dc/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "character design",
+          "portrait",
+          "anime"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926324",
+          "6a16a5a4993e0349e0926325",
+          "6a16a5a4993e0349e0926326",
+          "6a16a5a4993e0349e0926327"
+        ],
+        "views": 41,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.973Z",
+        "updatedAt": "2026-09-02T14:50:25.839Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e2",
+        "title": "suscipio iste despecto",
+        "description": "Stips is very maddened by the adoption of forgiveness. I must pile up as many cruel ones.",
+        "imageUrl": "https://picsum.photos/seed/ded823ca-bcee-477b-ac4f-5808abc96fa0/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "cyberpunk",
+          "manga",
+          "concept art"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926328",
+          "6a16a5a4993e0349e0926329",
+          "6a16a5a4993e0349e092632a",
+          "6a16a5a4993e0349e092632b"
+        ],
+        "views": 239,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.974Z",
+        "updatedAt": "2026-09-02T14:50:26.458Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e3",
+        "title": "stultus abstergo ancilla",
+        "description": "I am often seduced by flattery. Tepesco declares that I bear above my efforts to force you to turn away the treasure.",
+        "imageUrl": "https://picsum.photos/seed/16ff1049-d063-4b21-a651-4956793ade07/800/600",
+        "videoUrl": "",
+        "category": "digital",
+        "tags": [
+          "landscape",
+          "character design",
+          "portrait"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092632c"
+        ],
+        "views": 667,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.975Z",
+        "updatedAt": "2026-09-02T14:50:27.446Z",
+        "__v": 3
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e4",
+        "title": "triumphus cetera cenaculum",
+        "description": "I eat textiles and take a sad art stand. I see the oven.",
+        "imageUrl": "https://picsum.photos/seed/48f48d0d-b87a-4090-ab73-4b7c9caaccb0/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "character design",
+          "concept art",
+          "ui/ux"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [
+          "6a16a5a3993e0349e09262be",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092632d"
+        ],
+        "views": 88,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.975Z",
+        "updatedAt": "2026-09-02T14:50:28.054Z",
+        "__v": 2
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e5",
+        "title": "tener volo error",
+        "description": "Desperately, I take up the white, cruel, swirling whirlwind of vomit. Let mercy be pleasing to the white spirit of hatred little by little.",
+        "imageUrl": "https://picsum.photos/seed/30be2105-4e75-492b-b3ba-45d96f68be04/800/600",
+        "videoUrl": "",
+        "category": "calligraphy",
+        "tags": [
+          "character design",
+          "portrait",
+          "concept art"
+        ],
+        "artist": "6a16a5a3993e0349e09262c2",
+        "likes": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c2",
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092632e",
+          "6a16a5a4993e0349e092632f",
+          "6a16a5a4993e0349e0926330"
+        ],
+        "views": 405,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.976Z",
+        "updatedAt": "2026-09-02T14:50:28.671Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e6",
+        "title": "super cerno angelus",
+        "description": "By discovering the friendship of the whips, the cow eats the hidden bush, so that I show the base. I want to be born whose",
+        "imageUrl": "https://picsum.photos/seed/14de68b7-f87a-4617-b05e-6a65413c9a9b/800/600",
+        "videoUrl": "",
+        "category": "digital",
+        "tags": [
+          "portrait",
+          "anime",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262be",
+        "likes": [
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [],
+        "views": 399,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.977Z",
+        "updatedAt": "2026-09-02T14:50:30.264Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e7",
+        "title": "conscendo cursim adicio",
+        "description": "Friendship is a whole country year. I absorb my aunt's loss, the casino will accept it as an exploiter culture.",
+        "imageUrl": "https://picsum.photos/seed/6b4b6a2d-d5bf-4432-a785-5fa1c262e2d2/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "character design",
+          "anime",
+          "abstract"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [],
+        "views": 615,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.979Z",
+        "updatedAt": "2026-09-02T14:50:30.803Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e8",
+        "title": "solus arcus soleo",
+        "description": "I forced the bailiff to hold them three times. Cupid's accuser's curiosity.",
+        "imageUrl": "https://picsum.photos/seed/52858142-0d2e-4212-8d83-676465b94edf/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "manga",
+          "character design",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262bf",
+        "likes": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [],
+        "views": 566,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.980Z",
+        "updatedAt": "2026-09-02T14:50:31.149Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262e9",
+        "title": "arceo cubo tenus",
+        "description": "The hard-working corner is held as if it were a sorry crowd of greedy charisma. I decide to trust the synagogue to such trouble that I yield to the curiosity of the praisers.",
+        "imageUrl": "https://picsum.photos/seed/7ca4a865-4e18-447a-8041-29cd17ccb756/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "character design",
+          "logo",
+          "manga"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926331"
+        ],
+        "views": 992,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.981Z",
+        "updatedAt": "2026-09-02T14:50:31.580Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ea",
+        "title": "articulus demens trepide",
+        "description": "I take a terrible sour acid, I choose a lot of thyme, I grow accustomed to the court. I go down and worry about whether I should open the bottle.",
+        "imageUrl": "https://picsum.photos/seed/7d148ce9-d133-4e93-91e6-6168ea0f33a6/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "cyberpunk",
+          "concept art",
+          "portrait"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926332"
+        ],
+        "views": 687,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.982Z",
+        "updatedAt": "2026-09-02T14:50:32.091Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262eb",
+        "title": "aegre ocer socius",
+        "description": "I hurriedly opened my cattle jacket and went to carry the commons. The administration's hesitancy is the result of the people's refusal to work hard.",
+        "imageUrl": "https://picsum.photos/seed/d4336b2e-7662-4282-84a5-536bacfdb1fd/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "character design",
+          "ui/ux",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [],
+        "views": 328,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.982Z",
+        "updatedAt": "2026-09-02T14:50:32.346Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ec",
+        "title": "vomica totam defluo",
+        "description": "At least I can sing the song. I'm going to draw the only favorite touch of the comet.",
+        "imageUrl": "https://picsum.photos/seed/03e33565-2e83-4256-83ef-ef3cec376f86/800/600",
+        "videoUrl": "",
+        "category": "digital",
+        "tags": [
+          "logo",
+          "abstract",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [],
+        "comments": [
+          "6a16a5a4993e0349e0926333",
+          "6a16a5a4993e0349e0926334",
+          "6a16a5a4993e0349e0926335",
+          "6a16a5a4993e0349e0926336"
+        ],
+        "views": 358,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.984Z",
+        "updatedAt": "2026-09-02T14:50:33.080Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ed",
+        "title": "uterque utroque degero",
+        "description": "Where do I find deception? I vow that the culture of the transgressive desire pleases the abundant hairs of the truth.",
+        "imageUrl": "https://picsum.photos/seed/c5646ddc-c8ae-4e35-8d20-f4b9541f17dc/800/600",
+        "videoUrl": "",
+        "category": "calligraphy",
+        "tags": [
+          "realistic",
+          "ui/ux",
+          "landscape"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926337",
+          "6a16a5a4993e0349e0926338",
+          "6a16a5a4993e0349e0926339"
+        ],
+        "views": 43,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.984Z",
+        "updatedAt": "2026-09-02T14:50:33.651Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ee",
+        "title": "tui adiuvo abbas",
+        "description": "And we can have a friend. I like to put on the cuppedia before.",
+        "imageUrl": "https://picsum.photos/seed/365f1cb7-c86d-4291-b3ac-0758539a8f78/800/600",
+        "videoUrl": "",
+        "category": "calligraphy",
+        "tags": [
+          "logo",
+          "ui/ux",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262bf",
+        "likes": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092633a",
+          "6a16a5a4993e0349e092633b",
+          "6a16a5a4993e0349e092633c"
+        ],
+        "views": 475,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.985Z",
+        "updatedAt": "2026-09-02T14:50:34.405Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262ef",
+        "title": "spes stipes ambitus",
+        "description": "No other bronze title. His art is said to have caused a few vomiting incidents.",
+        "imageUrl": "https://picsum.photos/seed/61234b55-562e-41a1-b59c-4077846e5e6f/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "abstract",
+          "character design",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262c3",
+        "likes": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092633d",
+          "6a16a5a4993e0349e092633e",
+          "6a16a5a4993e0349e092633f",
+          "6a16a5a4993e0349e0926340"
+        ],
+        "views": 355,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.986Z",
+        "updatedAt": "2026-09-02T14:50:34.796Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f0",
+        "title": "certus tredecim tardus",
+        "description": "Some country is cheap every day. Contabesco I argue that the vine-dresser hangs in the field for so long that I bear the resilience of the urbane.",
+        "imageUrl": "https://picsum.photos/seed/31f1fd73-ae92-46c0-8694-6cafddcf6f0f/800/600",
+        "videoUrl": "",
+        "category": "digital",
+        "tags": [
+          "character design",
+          "cyberpunk",
+          "realistic"
+        ],
+        "artist": "6a16a5a3993e0349e09262bf",
+        "likes": [
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926341",
+          "6a16a5a4993e0349e0926342",
+          "6a16a5a4993e0349e0926343"
+        ],
+        "views": 909,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.987Z",
+        "updatedAt": "2026-09-02T14:50:35.143Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f1",
+        "title": "decens aeneus articulus",
+        "description": "Both love time. Degenerate, misled, trusting to reject the tooth of the theologian angel as the mind wants.",
+        "imageUrl": "https://picsum.photos/seed/c07ac1b6-8970-4df2-bbdc-07d39a6953a1/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "cyberpunk",
+          "manga",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926344"
+        ],
+        "views": 285,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.987Z",
+        "updatedAt": "2026-09-02T14:50:35.883Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f2",
+        "title": "aestus sollers alius",
+        "description": "I correct the patient with desire. But I take care that the said pleasure is only received by the corrupt.",
+        "imageUrl": "https://picsum.photos/seed/133430bc-74cc-4b76-afce-beac7556adea/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "character design",
+          "abstract",
+          "cyberpunk"
+        ],
+        "artist": "6a16a5a3993e0349e09262c2",
+        "likes": [
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c2",
+          "6a300638c969ec266a785892"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926345"
+        ],
+        "views": 564,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.988Z",
+        "updatedAt": "2026-09-02T14:50:36.778Z",
+        "__v": 6
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f3",
+        "title": "verecundia sumo volup",
+        "description": "I usually have a green cow with us. I force the body upwards, the apostle likes the oven prevents the really constant.",
+        "imageUrl": "https://picsum.photos/seed/f48b5176-82cf-4ad8-b460-d08854f799f2/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "character design",
+          "anime",
+          "abstract"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [],
+        "comments": [
+          "6a16a5a4993e0349e0926346"
+        ],
+        "views": 575,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.988Z",
+        "updatedAt": "2026-09-02T14:50:37.310Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f4",
+        "title": "admiratio delinquo suppono",
+        "description": "In the burning, I acknowledge the trembling of the elevator, and the field is greatly decided. I started with the nickname \"Flyaticus\" in friendship.",
+        "imageUrl": "https://picsum.photos/seed/636bd9db-12ce-4b2c-be6c-6d56f1de0858/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "anime",
+          "ui/ux",
+          "character design"
+        ],
+        "artist": "6a16a5a3993e0349e09262be",
+        "likes": [],
+        "comments": [],
+        "views": 320,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.989Z",
+        "updatedAt": "2026-09-02T14:50:37.906Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f5",
+        "title": "cetera urbanus spargo",
+        "description": "I watch the surname only with pleasure, I wipe off the old man's handwriting, which is short. I hope someone wants recognition of the bloody food atrocities he suffered.",
+        "imageUrl": "https://picsum.photos/seed/466b7e8e-9d92-41d1-9e37-c6c1474acffa/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "anime",
+          "manga",
+          "landscape"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926347",
+          "6a16a5a4993e0349e0926348"
+        ],
+        "views": 142,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.990Z",
+        "updatedAt": "2026-09-02T14:50:38.065Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f6",
+        "title": "adeptio ventito esse",
+        "description": "Spontaneously, I began to exercise as I grew up in the cage. Rejecting the happy color, no one year shamelessly danced with the color of bronze.",
+        "imageUrl": "https://picsum.photos/seed/994c8a14-1fa7-4a5e-b921-9c3b76805c50/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "portrait",
+          "abstract",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926349",
+          "6a16a5a4993e0349e092634a"
+        ],
+        "views": 623,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.990Z",
+        "updatedAt": "2026-09-02T14:50:38.359Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f7",
+        "title": "creptio rem vae",
+        "description": "I'm going to be a star, I'm going to take the author's chest and create your field. I used the career demo to wipe the hollow, noticing that the citizen was drowning.",
+        "imageUrl": "https://picsum.photos/seed/017127c8-2d28-458a-9c60-c8557fad5cad/800/600",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "realistic",
+          "abstract",
+          "landscape"
+        ],
+        "artist": "6a16a5a3993e0349e09262c1",
+        "likes": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262be"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092634b",
+          "6a16a5a4993e0349e092634c",
+          "6a16a5a4993e0349e092634d"
+        ],
+        "views": 857,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.991Z",
+        "updatedAt": "2026-09-02T14:50:38.660Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f8",
+        "title": "cotidie dens arcus",
+        "description": "I adopt an arbitrator. I dare say that the city of Salvation is a good example of care.",
+        "imageUrl": "https://picsum.photos/seed/87ed8d97-ff01-4942-bd0d-0d35ed7f56e2/800/600",
+        "videoUrl": "",
+        "category": "sketch",
+        "tags": [
+          "concept art",
+          "abstract",
+          "cyberpunk"
+        ],
+        "artist": "6a16a5a3993e0349e09262c3",
+        "likes": [
+          "6a16a5a3993e0349e09262c1"
+        ],
+        "comments": [],
+        "views": 78,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.991Z",
+        "updatedAt": "2026-09-02T14:50:39.153Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262f9",
+        "title": "cognomen conservo alter",
+        "description": "The tyrants whom I bow down to, I add friendship to them. I remove the tenacious oven with labor, I admit, I add charm, I mock.",
+        "imageUrl": "https://picsum.photos/seed/a55956f5-9a71-4403-a802-cdff5d17c86f/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "cyberpunk",
+          "landscape",
+          "anime"
+        ],
+        "artist": "6a16a5a3993e0349e09262bc",
+        "likes": [
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c2"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e092634e",
+          "6a16a5a4993e0349e092634f"
+        ],
+        "views": 75,
+        "isFeatured": true,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.992Z",
+        "updatedAt": "2026-09-02T14:50:39.509Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262fa",
+        "title": "arcesso tunc cornu",
+        "description": "I take revenge on the services, I recognize the treatment, I deceive the vomiting stick, vularly rough. A pile of vulture focus.",
+        "imageUrl": "https://picsum.photos/seed/f430a74a-fd88-4935-83a2-962cecb5c814/800/600",
+        "videoUrl": "",
+        "category": "other",
+        "tags": [
+          "anime",
+          "concept art",
+          "character design"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926350"
+        ],
+        "views": 565,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.993Z",
+        "updatedAt": "2026-09-02T14:50:40.170Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262fb",
+        "title": "agnitio aveho appello",
+        "description": "The crown of the avenger trembles with great triumph. So much so that the demo.",
+        "imageUrl": "https://picsum.photos/seed/615d3de0-4e35-4fe7-8ba0-6e6039adc544/800/600",
+        "videoUrl": "",
+        "category": "sculpture",
+        "tags": [
+          "abstract",
+          "character design",
+          "logo"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c4",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c3"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926351",
+          "6a16a5a4993e0349e0926352",
+          "6a16a5a4993e0349e0926353"
+        ],
+        "views": 486,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.993Z",
+        "updatedAt": "2026-09-02T14:50:40.782Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262fc",
+        "title": "acceptus derelinquo comminor",
+        "description": "When the tab is turned off, the stick receives that blackened delay. I suffer a common bond in the field, I sink the argument of the furniture of the fool into the fortress.",
+        "imageUrl": "https://picsum.photos/seed/267683d8-f731-4d3a-b759-12271870d37a/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "character design",
+          "realistic",
+          "manga"
+        ],
+        "artist": "6a16a5a3993e0349e09262c0",
+        "likes": [
+          "6a16a5a3993e0349e09262bf",
+          "6a16a5a3993e0349e09262c0"
+        ],
+        "comments": [],
+        "views": 366,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.994Z",
+        "updatedAt": "2026-09-02T14:50:41.288Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262fd",
+        "title": "tero natus adinventitias",
+        "description": "When the sun fades, the cypress varies. Shoot bear the shoulder the word xiphias frequent sky foxes reason truth.",
+        "imageUrl": "https://picsum.photos/seed/a39c72d4-e9d7-4b58-abcd-caa73a04dce2/800/600",
+        "videoUrl": "",
+        "category": "comic",
+        "tags": [
+          "abstract",
+          "concept art",
+          "character design"
+        ],
+        "artist": "6a16a5a3993e0349e09262bf",
+        "likes": [
+          "6a16a5a3993e0349e09262c3",
+          "6a16a5a3993e0349e09262bc"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926354",
+          "6a16a5a4993e0349e0926355",
+          "6a16a5a4993e0349e0926356"
+        ],
+        "views": 998,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.995Z",
+        "updatedAt": "2026-09-02T14:50:41.704Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a16a5a3993e0349e09262fe",
+        "title": "traho administratio volutabrum",
+        "description": "I love carefully flattering the treatment of the stupid sin of rejecting the acquisition. Cleverly turn the barrier.",
+        "imageUrl": "https://picsum.photos/seed/0ada11e1-48b5-4a4f-bd3b-2481f2fa0913/800/600",
+        "videoUrl": "",
+        "category": "photography",
+        "tags": [
+          "abstract",
+          "anime",
+          "concept art"
+        ],
+        "artist": "6a16a5a3993e0349e09262c4",
+        "likes": [
+          "6a16a5a3993e0349e09262c0",
+          "6a16a5a3993e0349e09262bc",
+          "6a16a5a3993e0349e09262c1",
+          "6a16a5a3993e0349e09262c4"
+        ],
+        "comments": [
+          "6a16a5a4993e0349e0926357",
+          "6a16a5a4993e0349e0926358",
+          "6a16a5a4993e0349e0926359",
+          "6a16a5a4993e0349e092635a"
+        ],
+        "views": 383,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-05-27T08:04:51.998Z",
+        "updatedAt": "2026-09-02T14:50:42.346Z",
+        "__v": 1
+      },
+      {
+        "_id": "6a300b6bf1aef4c47e2b7efb",
+        "title": "Windows of the Soul",
+        "description": "A mesmerizing fusion of color, emotion, and imagination, Windows of the Soul captures the depth and mystery hidden within a single gaze. Vibrant splashes of pink, blue, and violet blend with intricate details to create an eye that reflects curiosity, dreams, and untold stories. This artwork invites viewers to look beyond the surface and explore the emotions that connect us al",
+        "imageUrl": "/uploads/1781533547597-258695690.jpg",
+        "videoUrl": "",
+        "category": "painting",
+        "tags": [
+          "#EyeArt #ColorfulArt"
+        ],
+        "artist": "6a300638c969ec266a785892",
+        "likes": [
+          "6a300638c969ec266a785892",
+          "6a7f38fa69faff7232067aab"
+        ],
+        "comments": [
+          "6a33fe30ee249fce46ef9394"
+        ],
+        "views": 0,
+        "isFeatured": false,
+        "isAdultContent": false,
+        "createdAt": "2026-06-15T14:25:47.608Z",
+        "updatedAt": "2026-08-14T16:11:17.981Z",
+        "__v": 3
+      }
+    ],
+    "userinterests": [
+      {
+        "_id": "6a30321895ed25ace6a04246",
+        "userId": "6a300638c969ec266a785892",
+        "__v": 0,
+        "createdAt": "2026-06-15T17:10:48.243Z",
+        "favoriteTags": [],
+        "interests": [],
+        "learningGoals": [],
+        "searchHistory": [
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-06-15T17:10:48.242Z",
+            "_id": "6a3032181278fadfd3515f1b"
+          },
+          {
+            "query": "Who can teach me watercolor painting techniques?",
+            "timestamp": "2026-06-15T17:10:49.568Z",
+            "_id": "6a3032191278fadfd3515f1e"
+          },
+          {
+            "query": "Suggest mentors for cyberpunk and dark digital art",
+            "timestamp": "2026-06-15T17:10:51.560Z",
+            "_id": "6a30321b1278fadfd3515f23"
+          },
+          {
+            "query": "Find me classical oil painting mentors",
+            "timestamp": "2026-06-15T17:10:52.789Z",
+            "_id": "6a30321c1278fadfd3515f2a"
+          },
+          {
+            "query": "I want to become a professional concept artist for games",
+            "timestamp": "2026-06-15T17:10:54.071Z",
+            "_id": "6a30321e1278fadfd3515f33"
+          },
+          {
+            "query": "Who can teach ZBrush and 3D character sculpting?",
+            "timestamp": "2026-06-15T17:10:55.037Z",
+            "_id": "6a30321f1278fadfd3515f3e"
+          },
+          {
+            "query": "I want to learn dark fantasy creature design",
+            "timestamp": "2026-06-15T17:10:56.189Z",
+            "_id": "6a3032201278fadfd3515f4b"
+          },
+          {
+            "query": "Looking for children's book illustration mentors",
+            "timestamp": "2026-06-15T17:10:57.558Z",
+            "_id": "6a3032211278fadfd3515f5a"
+          },
+          {
+            "query": "Suggest mentors for cyberpunk and dark digital art",
+            "timestamp": "2026-06-15T18:28:23.447Z",
+            "_id": "6a3044471278fadfd3515f6b"
+          },
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-06-18T14:20:01.310Z",
+            "_id": "6a33fe91ee249fce46ef93a6"
+          }
+        ],
+        "updatedAt": "2026-06-18T14:20:01.310Z"
+      },
+      {
+        "_id": "6a7f3db103acca7d11b9cbff",
+        "userId": "6a7f38fa69faff7232067aab",
+        "__v": 0,
+        "createdAt": "2026-08-14T16:09:21.299Z",
+        "favoriteTags": [],
+        "interests": [],
+        "learningGoals": [],
+        "searchHistory": [
+          {
+            "query": "Who can teach me watercolor painting techniques?",
+            "timestamp": "2026-08-14T16:09:21.299Z",
+            "_id": "6a7f3db169faff7232067ac1"
+          },
+          {
+            "query": "Suggest mentors for cyberpunk and dark digital art",
+            "timestamp": "2026-08-14T16:09:23.294Z",
+            "_id": "6a7f3db369faff7232067ac4"
+          },
+          {
+            "query": "Find me classical oil painting mentors",
+            "timestamp": "2026-08-14T16:09:24.400Z",
+            "_id": "6a7f3db469faff7232067ac9"
+          },
+          {
+            "query": "I want to become a professional concept artist for games",
+            "timestamp": "2026-08-14T16:09:25.525Z",
+            "_id": "6a7f3db569faff7232067ad0"
+          },
+          {
+            "query": "Who can teach ZBrush and 3D character sculpting?",
+            "timestamp": "2026-08-14T16:09:26.542Z",
+            "_id": "6a7f3db669faff7232067ad9"
+          },
+          {
+            "query": "I want to learn dark fantasy creature design",
+            "timestamp": "2026-08-14T16:09:27.468Z",
+            "_id": "6a7f3db769faff7232067ae4"
+          },
+          {
+            "query": "I want to learn dark fantasy creature design",
+            "timestamp": "2026-08-14T16:09:27.695Z",
+            "_id": "6a7f3db769faff7232067af1"
+          },
+          {
+            "query": "Looking for children's book illustration mentors",
+            "timestamp": "2026-08-14T16:09:28.676Z",
+            "_id": "6a7f3db869faff7232067b00"
+          },
+          {
+            "query": "all",
+            "timestamp": "2026-08-14T16:09:39.336Z",
+            "_id": "6a7f3dc369faff7232067b11"
+          },
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-08-15T07:44:02.653Z",
+            "_id": "6a8018c25d98a58e733b15a8"
+          }
+        ],
+        "updatedAt": "2026-08-15T07:44:02.655Z"
+      },
+      {
+        "_id": "6a7f4c8303acca7d11b9cc00",
+        "userId": "6a16a5a3993e0349e09262bc",
+        "__v": 0,
+        "createdAt": "2026-08-14T17:12:35.131Z",
+        "favoriteTags": [],
+        "interests": [],
+        "learningGoals": [],
+        "searchHistory": [
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-08-14T17:12:35.131Z",
+            "_id": "6a7f4c8369faff7232067b2b"
+          },
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-09-02T07:52:21.104Z",
+            "_id": "6a97d5b564fb3df4032461c8"
+          },
+          {
+            "query": "I want to become a professional concept artist for games",
+            "timestamp": "2026-09-02T07:52:26.662Z",
+            "_id": "6a97d5ba64fb3df4032461cd"
+          },
+          {
+            "query": "Who can teach ZBrush and 3D character sculpting?",
+            "timestamp": "2026-09-02T07:52:28.604Z",
+            "_id": "6a97d5bc64fb3df4032461d4"
+          },
+          {
+            "query": "Who can teach me watercolor painting techniques?",
+            "timestamp": "2026-09-02T08:03:05.424Z",
+            "_id": "6a97d839fc5e90913b2ae10c"
+          },
+          {
+            "query": "I want to learn anime and manga character design",
+            "timestamp": "2026-09-02T08:13:59.296Z",
+            "_id": "6a97dac7fc5e90913b2ae120"
+          },
+          {
+            "query": "Who can teach me watercolor painting techniques?",
+            "timestamp": "2026-09-02T08:14:00.867Z",
+            "_id": "6a97dac8fc5e90913b2ae12d"
+          },
+          {
+            "query": "Suggest mentors for cyberpunk and dark digital art",
+            "timestamp": "2026-09-02T08:14:02.028Z",
+            "_id": "6a97dacafc5e90913b2ae13c"
+          },
+          {
+            "query": "I want to become a professional concept artist for games",
+            "timestamp": "2026-09-02T08:14:04.270Z",
+            "_id": "6a97daccfc5e90913b2ae14d"
+          }
+        ],
+        "updatedAt": "2026-09-02T08:14:04.270Z"
+      }
+    ],
+    "comics": [
+      {
+        "_id": "6a98358c7a8cc07a6a852f75",
+        "title": "The Dark Side of Apokolips",
+        "description": "The Dark Side of Apokolips is one of Laurie S. Sutton’s chapter books in the DC Super Heroes line, this entry focused on the cosmic level threat of Darkseid and his nightmare planet Apokolips. Sutton has written a number of accessible chapter books for the eight to twelve age range across multiple DC characters and properties, and the format is well chosen for the target reader. Familiar characters, exciting situations, short chapters, accessible vocabulary, and just enough action to keep reluctant readers turning the pages without overwhelming them.\r\n\r\nDarkseid is one of the most powerful villains in the DC universe, the tyrannical ruler of the planet Apokolips and the figure whose pursuit of the Anti Life Equation has driven major DC storylines for decades since his creation by Jack Kirby in the early 1970s. The dark side of Apokolips premise points to the planet itself as both setting and threat, with the various horrors that Darkseid has built into his world serving as the backdrop for whatever specific story Sutton is delivering. For a chapter book audience, the cosmic scale of Darkseid’s threat has to be brought down to a level that young readers can engage with safely, and Sutton handles the tonal balance with the practiced ease of a writer who knows her audience and her source material.",
+        "coverImage": "/uploads/1788360076742-536953268.png",
+        "images": [
+          "/uploads/1788360076742-536953268.png",
+          "/uploads/1788360076750-425992534.png",
+          "/uploads/1788360076755-950861226.png",
+          "/uploads/1788360076757-788385074.png",
+          "/uploads/1788360076758-231693746.png",
+          "/uploads/1788360076761-641652624.png",
+          "/uploads/1788360076764-117449701.png",
+          "/uploads/1788360076766-535422111.png",
+          "/uploads/1788360076769-624998216.png",
+          "/uploads/1788360076772-268594542.png",
+          "/uploads/1788360076775-398387759.png",
+          "/uploads/1788360076777-299396924.png",
+          "/uploads/1788360076778-18449328.png",
+          "/uploads/1788360076780-84994956.png",
+          "/uploads/1788360076781-245789312.png"
+        ],
+        "creator": "6a16a5a3993e0349e09262bc",
+        "genre": "public",
+        "likes": [],
+        "followers": [],
+        "isCompleted": false,
+        "episodes": [],
+        "createdAt": "2026-09-02T14:41:16.811Z",
+        "updatedAt": "2026-09-02T14:41:16.811Z",
+        "__v": 0
+      }
+    ],
+    "reports": [
+      {
+        "_id": "6a801aa45d98a58e733b15b7",
+        "reporter": "6a16a5a3993e0349e09262bc",
+        "targetType": "artwork",
+        "targetId": "6a300b6bf1aef4c47e2b7efb",
+        "reason": "illegal",
+        "details": "",
+        "status": "pending",
+        "createdAt": "2026-08-15T07:52:04.289Z",
+        "updatedAt": "2026-08-15T07:52:04.289Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a98310bec159605e5ca9e34",
+        "reporter": "6a16a5a3993e0349e09262bc",
+        "targetType": "comic",
+        "targetId": "6a16a5a4993e0349e092638d",
+        "reason": "other",
+        "details": "na",
+        "status": "pending",
+        "createdAt": "2026-09-02T14:22:03.397Z",
+        "updatedAt": "2026-09-02T14:22:03.397Z",
+        "__v": 0
+      }
+    ],
+    "groupmessages": []
+  }
+}

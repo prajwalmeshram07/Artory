@@ -1,0 +1,16 @@
+{
+  "name": "artory-root",
+  "version": "1.0.0",
+  "description": "Artory - AI-Powered Art Learning & Community Platform",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix server dev",
+    "client": "npm --prefix client dev",
+    "export-db": "npm --prefix server run export-db",
+    "seed": "npm --prefix server run seed",
+    "seed:data": "npm --prefix server run seed:data",
+    "seed:admin": "npm --prefix server run seed:admin",
+    "seed:mentors": "npm --prefix server run seed:mentors"
+  }
+}

@@ -16,24 +16,24 @@ const aiMentor = async (req, res) => {
     const { message, context } = req.body;
     const apiKey = process.env.GROQ_API_KEY;
 
-    let mentorSuggestion = null;
+    let mentorSuggestions = null;
     try {
       const allMentors = await Mentor.find({ isAvailable: true }).select('name bio tags skills teachingCategories rating experience profileImage').lean();
       if (allMentors.length > 0) {
         const catalog = buildCatalog(allMentors);
         const aiResults = await runAIRecommendation(message, [], catalog);
         
-        if (aiResults && aiResults.length > 0 && aiResults[0].score >= 5) {
-          const bestMatch = aiResults[0];
-          const fullMentor = allMentors.find(m => m.name === bestMatch.mentorName);
-          if (fullMentor) {
-            mentorSuggestion = {
-              mentorName: bestMatch.mentorName,
-              matchReason: bestMatch.matchReason,
-              matchPercentage: bestMatch.matchPercentage,
+        const topMatches = aiResults.filter(r => r.score >= 5).slice(0, 2);
+        if (topMatches.length > 0) {
+          mentorSuggestions = topMatches.map(match => {
+            const fullMentor = allMentors.find(m => m.name === match.mentorName);
+            return {
+              mentorName: match.mentorName,
+              matchReason: match.matchReason,
+              matchPercentage: match.matchPercentage,
               mentor: fullMentor
             };
-          }
+          }).filter(m => m.mentor != null);
         }
       }
     } catch (mentorErr) {
@@ -57,7 +57,7 @@ const aiMentor = async (req, res) => {
           max_tokens: 200
         });
         
-        return res.json({ reply: response.choices[0].message.content, mentorSuggestion });
+        return res.json({ reply: response.choices[0].message.content, mentorSuggestions });
       } catch (aiErr) {
         console.error('Groq API Error:', aiErr.message);
         // Fall through to mock response below instead of crashing
@@ -72,7 +72,7 @@ const aiMentor = async (req, res) => {
       "Practice gesture drawing for 10 minutes daily — it will dramatically improve your figures.",
     ];
     const reply = mockResponses[Math.floor(Math.random() * mockResponses.length)];
-    setTimeout(() => res.json({ reply, mentorSuggestion }), 800);
+    setTimeout(() => res.json({ reply, mentorSuggestions }), 800);
   } catch (err) {
     console.error('AI Mentor Error:', err);
     res.status(500).json({ message: err.message });

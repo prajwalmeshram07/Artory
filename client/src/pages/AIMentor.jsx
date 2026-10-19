@@ -52,7 +52,7 @@ export default function AIMentor() {
     setLoading(true);
     try {
       const r = await api.post('/ai/mentor', { message: userMsg });
-      setMessages(prev => [...prev, { role: 'ai', text: r.data.reply, mentorSuggestion: r.data.mentorSuggestion }]);
+      setMessages(prev => [...prev, { role: 'ai', text: r.data.reply, mentorSuggestions: r.data.mentorSuggestions }]);
     } catch {
       setMessages(prev => [...prev, { role: 'ai', text: "I'm having trouble connecting to my creative circuits. Please try again in a moment." }]);
     }
@@ -173,22 +173,27 @@ export default function AIMentor() {
                         <div className={`px-6 py-4 rounded-[1.5rem] text-sm leading-relaxed whitespace-pre-line shadow-xl ${m.role === 'user' ? 'bg-gradient-to-r from-primary to-accent text-white rounded-tr-md font-medium' : 'bg-surface/60 border border-dark-border/40 text-gray-200 rounded-tl-md'}`}>
                           {m.text}
                         </div>
-                        {m.mentorSuggestion && (
-                          <div className="mt-1 bg-dark border border-primary/30 rounded-2xl p-4 shadow-lg flex items-center gap-4 hover:border-primary transition-all">
+                        {m.mentorSuggestions && m.mentorSuggestions.map((suggestion, idx) => (
+                          <div key={idx} className="mt-2 bg-dark border border-primary/30 rounded-2xl p-4 shadow-lg flex flex-col sm:flex-row sm:items-center gap-4 hover:border-primary transition-all">
                             <div className="w-12 h-12 rounded-xl overflow-hidden bg-surface flex-shrink-0">
-                              {m.mentorSuggestion.mentor?.profileImage ? (
-                                <img src={m.mentorSuggestion.mentor.profileImage.startsWith('http') ? m.mentorSuggestion.mentor.profileImage : `${API_BASE}${m.mentorSuggestion.mentor.profileImage}`} alt={m.mentorSuggestion.mentorName} className="w-full h-full object-cover" />
+                              {suggestion.mentor?.profileImage ? (
+                                <img src={suggestion.mentor.profileImage.startsWith('http') ? suggestion.mentor.profileImage : `${API_BASE}${suggestion.mentor.profileImage}`} alt={suggestion.mentorName} className="w-full h-full object-cover" />
                               ) : (
-                                <div className="w-full h-full flex items-center justify-center bg-primary/20 text-primary font-bold">{m.mentorSuggestion.mentorName.charAt(0)}</div>
+                                <div className="w-full h-full flex items-center justify-center bg-primary/20 text-primary font-bold">{suggestion.mentorName.charAt(0)}</div>
                               )}
                             </div>
-                            <div>
-                              <p className="text-sm font-black text-white">{m.mentorSuggestion.mentorName}</p>
-                              <p className="text-[10px] text-gray-400 mt-0.5 line-clamp-1">{m.mentorSuggestion.matchReason}</p>
-                              <p className="text-[10px] text-primary font-bold mt-1 tracking-widest uppercase">✦ {m.mentorSuggestion.matchPercentage}% Match</p>
+                            <div className="flex-1 min-w-0">
+                              <p className="text-sm font-black text-white">{suggestion.mentorName}</p>
+                              <p className="text-[10px] text-gray-400 mt-0.5 line-clamp-2">{suggestion.matchReason}</p>
+                              <div className="flex items-center gap-2 mt-1">
+                                <p className="text-[10px] text-primary font-bold tracking-widest uppercase flex-shrink-0">✦ {suggestion.matchPercentage}% Match</p>
+                                {suggestion.mentor?.skills && (
+                                  <p className="text-[10px] text-gray-500 font-medium truncate">| Skills: {suggestion.mentor.skills.slice(0, 3).join(', ')}</p>
+                                )}
+                              </div>
                             </div>
                           </div>
-                        )}
+                        ))}
                       </div>
                     </div>
                   </div>

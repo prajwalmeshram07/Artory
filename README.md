@@ -59,12 +59,17 @@ Make sure you have the following installed:
    npm install
    ```
 
-4. **Seed Sample Data (MongoDB Atlas / Local)**
-   Populate the database with sample users (Admin, Artist, Buyer), mock products, and a demo order.
+4. **Seed Database (MongoDB Atlas / Local)**
+   Populate the database using the unified seeder (restores from `seed_data.json` or generates full realistic schema defaults):
    ```bash
    cd ../server
-   npm run seed:data
+   npm run seed
    ```
+   To export and sanitize the local database at any time:
+   ```bash
+   npm run export-db
+   ```
+   > For full database schema documentation, see [DATABASE_SCHEMA.md](./DATABASE_SCHEMA.md).
 
 ## 🔐 Environment Variables
 

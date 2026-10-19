@@ -21,7 +21,7 @@ export default function Login() {
       toast.success('Welcome back to the group!');
       navigate('/feed');
     } catch (err) {
-      toast.error(err.response?.data?.message || 'Login failed');
+      toast.error('Wrong email or password');
     } finally { setLoading(false); }
   };
 

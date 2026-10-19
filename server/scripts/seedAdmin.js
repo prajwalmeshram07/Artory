@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
 
-const ADMIN_USERNAME = 'admin';
-const ADMIN_EMAIL = 'admin@artory.com';
-const ADMIN_PASSWORD = 'Admin@123';
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@artory.com';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'Admin@123';
 
 async function seedAdmin() {
   try {

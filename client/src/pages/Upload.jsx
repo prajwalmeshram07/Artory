@@ -38,6 +38,7 @@ export default function Upload() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!file) return toast.error('Please choose an image');
+    if (!form.title.trim() || !form.description.trim() || !form.tags.trim()) return toast.error('fill details');
     if (form.isAdultContent && !isAdultUser) return toast.error('Age verification is required for adult content');
     setLoading(true);
     const formData = new FormData();

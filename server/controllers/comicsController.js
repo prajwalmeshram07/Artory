@@ -3,8 +3,9 @@ const Comic = require('../models/Comic');
 const createComic = async (req, res) => {
   try {
     const { title, description, genre } = req.body;
-    const coverImage = req.file ? `/uploads/${req.file.filename}` : '';
-    const comic = await Comic.create({ title, description, genre, coverImage, creator: req.user._id });
+    const images = req.files ? req.files.map(f => `/uploads/${f.filename}`) : [];
+    const coverImage = images.length > 0 ? images[0] : '';
+    const comic = await Comic.create({ title, description, genre, coverImage, images, creator: req.user._id });
     res.status(201).json(comic);
   } catch (err) { res.status(500).json({ message: err.message }); }
 };
@@ -35,5 +36,16 @@ const likeComic = async (req, res) => {
     res.json({ likes: comic.likes.length, liked: !liked });
   } catch (err) { res.status(500).json({ message: err.message }); }
 };
+const deleteComic = async (req, res) => {
+  try {
+    const comic = await Comic.findById(req.params.id);
+    if (!comic) return res.status(404).json({ message: 'Not found' });
+    if (comic.creator.toString() !== req.user._id.toString() && req.user.role !== 'admin') {
+      return res.status(403).json({ message: 'Not authorized' });
+    }
+    await comic.deleteOne();
+    res.json({ message: 'Comic deleted' });
+  } catch (err) { res.status(500).json({ message: err.message }); }
+};
 
-module.exports = { createComic, getAllComics, getComicById, likeComic };
+module.exports = { createComic, getAllComics, getComicById, likeComic, deleteComic };

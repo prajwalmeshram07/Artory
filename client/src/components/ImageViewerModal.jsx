@@ -11,6 +11,7 @@ const API_BASE = import.meta.env.VITE_API_URL?.replace('/api','') || 'http://loc
 export default function ImageViewerModal({ isOpen, onClose, artwork, reportTargetType = 'artwork', onDeleted }) {
   const [zoom, setZoom] = useState(1);
   const [comment, setComment] = useState('');
+  const [imageIndex, setImageIndex] = useState(0);
   const { user } = useAuth();
   const navigate = useNavigate();
 
@@ -31,18 +32,29 @@ export default function ImageViewerModal({ isOpen, onClose, artwork, reportTarge
     };
   }, [isOpen]);
 
+  useEffect(() => {
+    setImageIndex(0);
+  }, [artwork]);
+
   if (!isOpen || !artwork) return null;
 
   const artistId = artwork.artist?._id || artwork.artist;
-  const canDelete = reportTargetType === 'artwork' && artistId === user?._id;
-  const imgSrc = artwork.imageUrl?.startsWith('http') ? artwork.imageUrl : `${API_BASE}${artwork.imageUrl}`;
+  const canDelete = (reportTargetType === 'artwork' || reportTargetType === 'comic') && (artistId === user?._id || user?.role === 'admin');
+  
+  const images = artwork?.images && artwork.images.length > 0 
+    ? artwork.images.map(img => img.startsWith('http') ? img : `${API_BASE}${img}`)
+    : (artwork?.imageUrl ? [artwork.imageUrl.startsWith('http') ? artwork.imageUrl : `${API_BASE}${artwork.imageUrl}`] : []);
+  
+  const currentImgSrc = images[imageIndex];
+
   const artistImg = artwork.artist?.profileImage
     ? (artwork.artist.profileImage.startsWith('http') ? artwork.artist.profileImage : `${API_BASE}${artwork.artist.profileImage}`)
     : null;
 
   const handleLike = async () => {
     try {
-      const res = await api.post(`/artwork/${artwork._id}/like`);
+      const endpoint = reportTargetType === 'comic' ? `/comics/${artwork._id}/like` : `/artwork/${artwork._id}/like`;
+      const res = await api.post(endpoint);
       setLiked(res.data.liked);
       setLikeCount(res.data.likes);
     } catch (err) {
@@ -65,7 +77,11 @@ export default function ImageViewerModal({ isOpen, onClose, artwork, reportTarge
   const handleDelete = async () => {
     if (!window.confirm('Delete this post?')) return;
     try {
-      await api.delete(`/artwork/${artwork._id}`);
+      if (reportTargetType === 'comic') {
+        await api.delete(`/comics/${artwork._id}`);
+      } else {
+        await api.delete(`/artwork/${artwork._id}`);
+      }
       toast.success('Post deleted');
       onDeleted?.(artwork._id);
       onClose();
@@ -95,9 +111,30 @@ export default function ImageViewerModal({ isOpen, onClose, artwork, reportTarge
             </button>
           </div>
           
-          <div className="w-full h-full overflow-auto flex items-center justify-center p-4 hide-scrollbar">
+          <div className="w-full h-full overflow-auto flex items-center justify-center p-4 hide-scrollbar relative">
+            {images.length > 1 && (
+              <>
+                <button 
+                  onClick={(e) => { e.stopPropagation(); setImageIndex(i => (i === 0 ? images.length - 1 : i - 1)); }} 
+                  className="absolute left-4 z-20 p-2 bg-black/50 hover:bg-primary text-white rounded-full backdrop-blur-md transition-colors"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                </button>
+                <button 
+                  onClick={(e) => { e.stopPropagation(); setImageIndex(i => (i === images.length - 1 ? 0 : i + 1)); }} 
+                  className="absolute right-4 z-20 p-2 bg-black/50 hover:bg-primary text-white rounded-full backdrop-blur-md transition-colors"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </button>
+                <div className="absolute bottom-4 flex gap-1.5 z-20 bg-black/40 px-3 py-1.5 rounded-full backdrop-blur-md">
+                  {images.map((_, i) => (
+                    <div key={i} className={`w-2 h-2 rounded-full transition-colors ${i === imageIndex ? 'bg-primary' : 'bg-white/50'}`} />
+                  ))}
+                </div>
+              </>
+            )}
             <img 
-              src={imgSrc} 
+              src={currentImgSrc} 
               alt={artwork.title} 
               className="max-w-full max-h-full object-contain transition-transform duration-300 ease-out shadow-2xl"
               style={{ transform: `scale(${zoom})`, transformOrigin: 'center center' }}

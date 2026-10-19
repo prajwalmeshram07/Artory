@@ -1,7 +1,13 @@
+require('dotenv').config();
 const { MongoClient } = require('mongodb');
 
-const localUri = "mongodb://localhost:27017/artory";
-const atlasUri = "mongodb+srv://prajwalmeshram231162_db_user:OV1XP1yD4ee9Y5Px@artory.qg5ni83.mongodb.net/artory?retryWrites=true&w=majority&appName=artory";
+const localUri = process.env.LOCAL_MONGO_URI || process.env.MONGO_URI || "mongodb://localhost:27017/artory";
+const atlasUri = process.env.ATLAS_MONGO_URI;
+
+if (!atlasUri) {
+  console.error("❌ Error: ATLAS_MONGO_URI is not set in environment variables.");
+  process.exit(1);
+}
 
 async function migrate() {
   let localClient, atlasClient;

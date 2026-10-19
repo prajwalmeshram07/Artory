@@ -9,10 +9,13 @@
     "seed:admin": "node scripts/seedAdmin.js",
     "seed:data": "node scripts/seedData.js",
     "seed:mentors": "node scripts/seedMentors.js",
-    "backfill:user-age": "node scripts/backfillUserAge.js"
+    "backfill:user-age": "node scripts/backfillUserAge.js",
+    "export-db": "node scripts/export-db.js",
+    "seed": "node scripts/seed-db.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@vitalets/google-translate-api": "^9.2.1",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
